@@ -1,0 +1,16 @@
+{
+  "name": "catalogo-cortes-carne",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Catálogo interactivo de cortes de carne de res y cerdo en Colombia",
+  "scripts": {
+    "start": "npx serve .",
+    "build:css": "tailwindcss -i css/input.css -o css/styles.css --minify",
+    "watch:css": "tailwindcss -i css/input.css -o css/styles.css --watch",
+    "dev": "tailwindcss -i css/input.css -o css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
+

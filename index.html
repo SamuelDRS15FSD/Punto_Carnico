@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  CATÁLOGO INTERACTIVO DE CORTES DE CARNE · RES Y CERDO (COLOMBIA)
+  ----------------------------------------------------------------------------
+  Archivo único y autocontenido: HTML5 semántico + Tailwind CSS (CDN) +
+  Lucide (CDN) + JavaScript vainilla.
+
+  Fuentes de contenido (manuales técnicos):
+    · "Manual Fábrica Autoservicio" – Almacenes Éxito (fichas por corte,
+      nombres regionales, empaque, bandeja, exhibición y recetas).
+    · "Cortes de la canal bovina para mercados nacionales y de exportación"
+      – AGROSAVIA, 2020 (valores de composición, terneza, códigos IMPS).
+    · "Manual de cortes de carne de cerdo colombiano" – Asoporcicultores /
+      FNP / Cenipórcino (nomenclatura, cocción y nombres regionales).
+
+  ANTES DE PUBLICAR: reemplace https://www.example.com/catalogo-cortes-carne/
+  (canonical, og:url, og:image y JSON-LD) por su dominio real.
+  ============================================================================
+-->
+<html lang="es-CO">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ===================== SEO TÉCNICO ===================== -->
+  <title>Catálogo de cortes de res y cerdo en Colombia | Nombres y recetas</title>
+  <meta name="description"
+    content="Catálogo interactivo de cortes de res y cerdo de Colombia: solomito (lomo viche, lomo fino), huevo de aldana (bola negra), punta de anca, tocino carnudo y más. Nombres regionales, cocción, empaque y recetas con calculadora de porciones.">
+  <meta name="keywords"
+    content="cortes de res, cortes de cerdo, solomito, lomo viche, lomo fino, huevo de aldana, bola negra, punta de anca, tocino carnudo, nombres regionales carne Colombia, recetas con carne">
+  <meta name="author" content="Catálogo de Cortes Cárnicos">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#7A1F2B">
+  <link rel="canonical" href="https://www.example.com/catalogo-cortes-carne/">
+  <link rel="alternate" hreflang="es-CO" href="https://www.example.com/catalogo-cortes-carne/">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="Catálogo de Cortes de Carne">
+  <meta property="og:title" content="Catálogo de Cortes de Carne de Res y Cerdo en Colombia">
+  <meta property="og:description"
+    content="Busca cortes por su nombre comercial o regional, filtra por método de cocción y consulta ficha técnica, empaque y recetas con calculadora de porciones.">
+  <meta property="og:url" content="https://www.example.com/catalogo-cortes-carne/">
+  <meta property="og:image" content="https://www.example.com/catalogo-cortes-carne/og-cortes.jpg">
+  <meta property="og:image:alt" content="Tablero con distintos cortes de res y cerdo">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Catálogo de Cortes de Carne de Res y Cerdo en Colombia">
+  <meta name="twitter:description"
+    content="Nombres regionales, cocción, empaque y recetas de los cortes de res y cerdo más usados en Colombia.">
+  <meta name="twitter:image" content="https://www.example.com/catalogo-cortes-carne/og-cortes.jpg">
+
+  <!-- Favicon inline (evita una petición extra) -->
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237A1F2B'/%3E%3Cpath d='M14 36c0-10 8-18 20-18 10 0 16 6 16 14s-7 14-18 14c-9 0-18-2-18-10z' fill='%23F5E3E5'/%3E%3Cpath d='M26 28c4 2 6 6 5 10M36 26c3 2 5 5 5 9' stroke='%237A1F2B' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+
+  <!--
+    JSON-LD estático (CollectionPage + WebSite + Breadcrumb).
+    El JSON-LD de Product y Recipe se genera desde los mismos datos del
+    catálogo en el bloque <script id="ld-dinamico"> (ver JavaScript).
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.example.com/catalogo-cortes-carne/#website",
+        "url": "https://www.example.com/catalogo-cortes-carne/",
+        "name": "Catálogo de Cortes de Carne de Res y Cerdo",
+        "inLanguage": "es-CO"
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://www.example.com/catalogo-cortes-carne/#catalogo",
+        "url": "https://www.example.com/catalogo-cortes-carne/",
+        "name": "Catálogo de cortes de carne de res y cerdo en Colombia",
+        "description": "Cortes bovinos y porcinos con nombres comerciales y regionales de Colombia, métodos de cocción, especificaciones de empaque y recetas.",
+        "isPartOf": { "@id": "https://www.example.com/catalogo-cortes-carne/#website" },
+        "inLanguage": "es-CO"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.example.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Catálogo de cortes de carne", "item": "https://www.example.com/catalogo-cortes-carne/" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- ===================== ESTILOS (Tailwind compilado + estilos propios) ===================== -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#catalogo">Saltar al catálogo</a>
+
+  <!-- ===================== CABECERA ===================== -->
+  <header class="hero" id="inicio">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 pt-5 pb-10 sm:pb-14">
+      <nav aria-label="Navegación principal" class="flex flex-wrap items-center justify-between gap-3">
+        <a href="#inicio" class="flex items-center gap-2 font-display text-lg font-bold text-white no-underline">
+          <i data-lucide="beef" class="w-6 h-6" aria-hidden="true"></i>
+          <span>Cortes Cárnicos CO</span>
+        </a>
+        <ul class="flex items-center gap-1 text-sm font-semibold list-none m-0 p-0">
+          <li><a class="px-3 py-2 rounded-lg text-white/90 hover:bg-white/15 inline-block" href="#catalogo">Catálogo</a>
+          </li>
+          <li><a class="px-3 py-2 rounded-lg text-white/90 hover:bg-white/15 inline-block" href="#guia">Guía técnica</a>
+          </li>
+          <li><a class="px-3 py-2 rounded-lg text-white/90 hover:bg-white/15 inline-block" href="#fuentes">Fuentes</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mt-10 grid gap-8 lg:grid-cols-[1.3fr_1fr] items-end">
+        <div>
+          <p class="text-sm font-bold uppercase tracking-widest text-white/80">Res y cerdo · Colombia</p>
+          <h1 class="mt-2 text-4xl sm:text-5xl font-bold leading-tight">Catálogo de cortes de carne de res y cerdo</h1>
+          <p class="mt-4 text-lg text-white/90 max-w-2xl">
+            Encuentra el corte por su nombre comercial o regional —solomito, lomo viche, lomo fino, huevo de aldana,
+            bola negra, punta de anca, tocino carnudo— y consulta cocción, valores nutricionales, empaque y recetas
+            con calculadora de porciones.
+          </p>
+        </div>
+
+        <!-- Selector de especie (interruptor accesible) -->
+        <div role="group" aria-labelledby="sp-title" class="lg:justify-self-end">
+          <p id="sp-title" class="text-sm font-bold uppercase tracking-widest text-white/80 mb-2">Elige la especie</p>
+          <div class="sp-switch">
+            <span class="sp-label" id="lbl-bovina" data-active="true">
+              <i data-lucide="beef" class="w-4 h-4" aria-hidden="true"></i>Bovina
+            </span>
+            <button type="button" id="sp-toggle" class="sp-track" role="switch" aria-checked="false"
+              aria-label="Mostrar carne porcina (desactivado: carne bovina)">
+              <span class="sp-thumb" aria-hidden="true"></span>
+            </button>
+            <span class="sp-label" id="lbl-porcina" data-active="false">
+              <i data-lucide="ham" class="w-4 h-4" aria-hidden="true"></i>Porcina
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===================== CATÁLOGO ===================== -->
+    <section id="catalogo" aria-labelledby="h-catalogo" class="mx-auto max-w-6xl px-4 sm:px-6 py-10">
+      <h2 id="h-catalogo" class="text-3xl font-bold">Cortes de carne <span id="h-especie"
+          class="text-accent">bovina</span></h2>
+      <p class="mt-2 text-muted max-w-3xl">
+        Busca por cualquier nombre usado en el país y combina los filtros de cocción y formato comercial.
+      </p>
+
+      <!-- Filtros -->
+      <form id="filtros" role="search" aria-label="Buscar y filtrar cortes" class="mt-6 grid gap-5" autocomplete="off">
+        <div class="grid gap-4 md:grid-cols-[1fr_13rem_13rem]">
+          <div>
+            <label for="q" class="block font-bold mb-1.5">Buscar por nombre comercial o regional</label>
+            <div class="relative">
+              <i data-lucide="search"
+                class="w-5 h-5 absolute left-3.5 top-1/2 -translate-y-1/2 text-muted pointer-events-none"
+                aria-hidden="true"></i>
+              <input id="q" name="q" type="search" class="field" inputmode="search" enterkeyhint="search"
+                placeholder="Ej.: lomo viche, bola negra, tocino carnudo…" aria-describedby="q-help" spellcheck="false">
+            </div>
+            <p id="q-help" class="text-sm text-muted mt-1.5">
+              Sugerencias:
+              <span id="sugerencias" class="inline-flex flex-wrap gap-x-1 gap-y-1 align-middle"></span>
+            </p>
+          </div>
+          <div>
+            <label for="region" class="block font-bold mb-1.5">Mi región</label>
+            <select id="region" class="field" style="padding-left:1rem" aria-describedby="region-help">
+              <option value="">Todas</option>
+              <option value="Medellín">Medellín</option>
+              <option value="Bogotá">Bogotá</option>
+              <option value="Santander">Santander</option>
+              <option value="Cali / Eje Cafetero">Cali / Eje Cafetero</option>
+              <option value="Costa Caribe">Costa Caribe</option>
+            </select>
+            <p id="region-help" class="text-sm text-muted mt-1.5">Muestra cómo se llama cada corte en tu zona.</p>
+          </div>
+          <div>
+            <label for="orden" class="block font-bold mb-1.5">Ordenar por</label>
+            <select id="orden" class="field" style="padding-left:1rem">
+              <option value="az">Nombre (A–Z)</option>
+              <option value="prot">Mayor proteína</option>
+              <option value="magro">Más magro (menos grasa)</option>
+              <option value="peso">Mayor peso por pieza</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid gap-5 md:grid-cols-2">
+          <fieldset>
+            <legend class="font-bold mb-2 flex items-center gap-2"><i data-lucide="flame" class="w-4 h-4 text-accent"
+                aria-hidden="true"></i>Método de cocción</legend>
+            <div id="f-coccion" class="flex flex-wrap gap-2"></div>
+          </fieldset>
+          <fieldset>
+            <legend class="font-bold mb-2 flex items-center gap-2"><i data-lucide="layers" class="w-4 h-4 text-accent"
+                aria-hidden="true"></i>Formato comercial</legend>
+            <div id="f-formato" class="flex flex-wrap gap-2"></div>
+          </fieldset>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3">
+          <!-- Botón de envío oculto visualmente: permite buscar con Enter y cumple WCAG H32 -->
+          <button type="submit" class="sr-only">Buscar cortes</button>
+          <button type="button" id="limpiar" class="btn ghost"><i data-lucide="rotate-ccw" class="w-4 h-4"
+              aria-hidden="true"></i>Limpiar filtros</button>
+          <!-- Región aria-live: anuncia el número de resultados a lectores de pantalla -->
+          <p id="conteo" class="font-semibold text-muted" role="status" aria-live="polite" aria-atomic="true">Cargando
+            cortes…</p>
+        </div>
+      </form>
+
+      <!-- Resultados -->
+      <div id="resultados" class="mt-8">
+        <p id="aviso-esp" class="hidden panel mb-4 px-4 py-3 text-sm font-semibold" role="status"></p>
+        <ul id="grid" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 list-none p-0 m-0" aria-label="Lista de cortes"
+          aria-busy="true">
+          <li class="skeleton" aria-hidden="true"></li>
+          <li class="skeleton" aria-hidden="true"></li>
+          <li class="skeleton" aria-hidden="true"></li>
+          <li class="skeleton hidden sm:block" aria-hidden="true"></li>
+          <li class="skeleton hidden sm:block" aria-hidden="true"></li>
+          <li class="skeleton hidden lg:block" aria-hidden="true"></li>
+        </ul>
+        <div id="vacio" class="hidden text-center py-14 panel" role="alert">
+          <i data-lucide="search" class="w-10 h-10 mx-auto text-muted" aria-hidden="true"></i>
+          <h3 class="mt-3 text-xl font-bold" style="justify-content:center;color:var(--ink)">No encontramos cortes con
+            esos criterios</h3>
+          <p class="mt-1 text-muted">Prueba con otro nombre regional, revisa la ortografía o quita algún filtro.</p>
+          <button type="button" id="vacio-limpiar" class="btn mt-4">Ver todos los cortes</button>
+        </div>
+      </div>
+      <noscript>
+        <p class="note mt-6">Este catálogo necesita JavaScript para mostrar las fichas interactivas de cada corte.</p>
+      </noscript>
+    </section>
+
+    <!-- ===================== GUÍA TÉCNICA ===================== -->
+    <section id="guia" aria-labelledby="h-guia" class="border-t border-line bg-white">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 py-12">
+        <h2 id="h-guia" class="text-3xl font-bold">Guía técnica rápida</h2>
+        <p class="mt-2 text-muted max-w-3xl">Recomendaciones tomadas de los manuales de cortes para cocinar, conservar y
+          exhibir correctamente la carne.</p>
+
+        <div class="mt-8 grid gap-5 md:grid-cols-3">
+          <article class="panel">
+            <h3><i data-lucide="thermometer" class="w-5 h-5" aria-hidden="true"></i>Cocción segura</h3>
+            <p class="text-sm">Cocinar el cerdo tecnificado hasta <strong>65–70 °C</strong> de temperatura interna y
+              dejar reposar antes de cortar. Para res se usó 70 °C interno en las pruebas de cocción de AGROSAVIA. Use
+              termómetro de punzón y corte siempre contra la fibra.</p>
+          </article>
+          <article class="panel">
+            <h3><i data-lucide="snowflake" class="w-5 h-5" aria-hidden="true"></i>Conservación</h3>
+            <p class="text-sm">Refrigerar entre <strong>−2 y +2 °C</strong>. En autoservicio la vida útil de los
+              productos porcionados es de <strong>5 días</strong>, de los cuales <strong>2 días</strong> corresponden a
+              venta en almacén.</p>
+          </article>
+          <article class="panel">
+            <h3><i data-lucide="package" class="w-5 h-5" aria-hidden="true"></i>Empaque y exhibición</h3>
+            <p class="text-sm">Pieza entera <strong>al vacío</strong>. Porciones en bandeja con almohadilla absorbente,
+              selladas con <strong>vitafil/vinipel</strong> sin arrugas ni perforaciones y precio en la esquina superior
+              derecha. Se exhibe por categoría según planograma.</p>
+          </article>
+        </div>
+
+        <div class="mt-5 grid gap-5 md:grid-cols-2">
+          <article class="panel">
+            <h3><i data-lucide="flame" class="w-5 h-5" aria-hidden="true"></i>Cocción seca vs. húmeda</h3>
+            <p class="text-sm">Los cortes magros y tiernos (solomito, lomo ancho, punta de anca, chuleta, cañón) se
+              asan, parrillan u hornean. Los cortes con más tejido conectivo (sobrebarriga, pecho, morrillo, murillo,
+              costilla) se <strong>sudan, estofan o guisan</strong> lentamente.</p>
+          </article>
+          <article class="panel">
+            <h3><i data-lucide="info" class="w-5 h-5" aria-hidden="true"></i>¿Por qué cambian los nombres?</h3>
+            <p class="text-sm">En Colombia el mismo músculo recibe nombres distintos según la región. Por ejemplo, el
+              <strong>solomito</strong> es <em>lomo viche</em> en Cali y <em>lomo fino</em> en la Costa; y el
+              <strong>huevo de aldana</strong> es <em>bola negra</em> en Cali. Use la tabla de nombres regionales de
+              cada ficha.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== PIE ===================== -->
+  <footer id="fuentes" class="bg-[#231C1B] text-white">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 py-10 grid gap-8 md:grid-cols-3">
+      <section aria-labelledby="h-fuentes">
+        <h2 id="h-fuentes" class="text-xl font-bold">Fuentes</h2>
+        <ul class="mt-3 text-sm space-y-2 text-white/85 list-disc pl-5">
+          <li>Manual Fábrica Autoservicio — Almacenes Éxito.</li>
+          <li>Flórez, H., León, L. y Moreno, E. (2020). <em>Cortes de la canal bovina para mercados nacionales y de
+              exportación</em>. AGROSAVIA.</li>
+          <li>Asoporcicultores–FNP / Cenipórcino. <em>Manual de cortes de carne de cerdo colombiano</em>.</li>
+          <li>Fotografías de res: AGROSAVIA (2020), licencia <a class="underline"
+              href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license noopener" target="_blank">CC
+              BY-NC-SA 4.0</a>. Fotografías de cerdo: Asoporcicultores–FNP / Cenipórcino.</li>
+        </ul>
+      </section>
+      <section aria-labelledby="h-notas" class="md:col-span-2">
+        <h2 id="h-notas" class="text-xl font-bold">Notas sobre los datos</h2>
+        <p class="mt-3 text-sm text-white/85">
+          Los valores nutricionales son <strong>aproximados</strong> y por 100 g de carne cruda: provienen de AGROSAVIA
+          cuando el corte
+          está caracterizado, de las fichas de Éxito en otros casos y se marcan como «estimado» cuando ninguna fuente
+          los incluye.
+          Las calorías se calculan con factores de Atwater (4 kcal/g de proteína y 9 kcal/g de grasa).
+          Los métodos de cocción combinan el campo «Uso» del manual de Éxito con las recomendaciones de los manuales
+          técnicos.
+          Las recetas marcadas como «sugerida» no provienen del manual y son una propuesta para el tipo de corte.
+          Este sitio es informativo y no reemplaza la norma técnica NTC 4291 ni las fichas oficiales de cada proveedor.
+        </p>
+      </section>
+    </div>
+    <div class="border-t border-white/10 text-center text-xs text-white/70 py-4 px-4">
+      Catálogo educativo · Basado en manuales técnicos de Éxito, AGROSAVIA y Asoporcicultores.
+    </div>
+  </footer>
+
+  <!-- ===================== MODAL DE FICHA ===================== -->
+  <dialog id="ficha" class="sheet" aria-labelledby="ficha-titulo" aria-describedby="ficha-sub">
+    <div class="flex items-start justify-between gap-4 p-4 sm:p-5 border-b border-line bg-white">
+      <div class="min-w-0">
+        <p id="ficha-sub" class="text-sm font-bold uppercase tracking-wider text-accent"></p>
+        <h2 id="ficha-titulo" class="text-2xl sm:text-3xl font-bold leading-tight">Ficha técnica</h2>
+      </div>
+      <div class="flex items-center gap-1.5 shrink-0 no-print">
+        <button type="button" id="ficha-prev" class="btn ghost icon-btn" aria-label="Corte anterior"><i
+            data-lucide="chevron-left" class="w-5 h-5" aria-hidden="true"></i></button>
+        <button type="button" id="ficha-next" class="btn ghost icon-btn" aria-label="Corte siguiente"><i
+            data-lucide="chevron-right" class="w-5 h-5" aria-hidden="true"></i></button>
+        <button type="button" id="ficha-compartir" class="btn ghost icon-btn" aria-label="Compartir esta ficha"
+          title="Compartir"><i data-lucide="share-2" class="w-5 h-5" aria-hidden="true"></i></button>
+        <button type="button" id="ficha-imprimir" class="btn ghost icon-btn hidden sm:inline-flex"
+          aria-label="Imprimir esta ficha" title="Imprimir"><i data-lucide="printer" class="w-5 h-5"
+            aria-hidden="true"></i></button>
+        <button type="button" id="ficha-cerrar" class="btn ghost" aria-label="Cerrar ficha técnica">
+          <i data-lucide="x" class="w-5 h-5" aria-hidden="true"></i><span class="hidden sm:inline">Cerrar</span>
+        </button>
+      </div>
+    </div>
+    <div id="ficha-body" class="sheet-body p-4 sm:p-5" tabindex="-1"></div>
+    <p id="ficha-aviso" class="toast" role="status" aria-live="polite"></p>
+  </dialog>
+
+  <!-- Zona de impresión: se rellena solo al imprimir una ficha -->
+  <div id="print-root" aria-hidden="true"></div>
+
+  <!-- ===================== LIBRERÍAS ===================== -->
+  <script src="js/lucide.min.js"></script>
+
+  <!-- ===================== DATOS Y LÓGICA ===================== -->
+  <script src="js/cortes-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

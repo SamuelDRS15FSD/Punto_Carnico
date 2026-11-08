@@ -1,0 +1,3347 @@
+(typeof window !== 'undefined' ? window : global).CORTES_DATA = [
+ {
+  "id": "solomito",
+  "esp": "bovina",
+  "n": "Solomito",
+  "sub": "Lomo fino · Lomo viche · Tenderloin",
+  "grupo": "Cuarto posterior · Lomo",
+  "imps": "189",
+  "alias": [
+   "Lomito",
+   "Filet mignon",
+   "Tenderloin",
+   "Lomo de res"
+  ],
+  "reg": {
+   "Medellín": "Solomito",
+   "Bogotá": "Lomo de res",
+   "Santander": "Lomito",
+   "Cali / Eje Cafetero": "Lomo viche",
+   "Costa Caribe": "Lomo fino"
+  },
+  "desc": "El corte más suave y blando del novillo. Es cónico, alargado y con muy poca grasa, ubicado en la región sublumbar interna. Muy apetecido por su terneza y por la gran variedad de preparaciones que permite.",
+  "peso": 1.9,
+  "uso": "Hornear",
+  "coc": [
+   "hornear",
+   "asar",
+   "parrillar"
+  ],
+  "fmt": [
+   "medallones",
+   "filetes",
+   "entero"
+  ],
+  "sus": [
+   "Solomo redondo",
+   "Solomito de cerdo"
+  ],
+  "nut": {
+   "p": 24.9,
+   "g": 3.6,
+   "fe": 2.1,
+   "pho": 163,
+   "src": "a"
+  },
+  "emp": {
+   "pres": "Entero 1,6–1,8 kg · filetes de 0,5–0,8 kg",
+   "bandeja": "Entero: 8-1 blanca · porciones: 4-1 blanca",
+   "env": "Pieza entera empacada al vacío; filetes en bandeja con almohadilla y vitafil",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja. Como «Filet mignón» (medallones envueltos en panceta) se exhibe en la subcategoría Gourmet"
+  },
+  "tip": "Retire grasa, membrana y coágulos antes de cocinar. Es el más tierno: cocción corta y sin sobrecocer; deje reposar 5 minutos antes de cortar.",
+  "rec": {
+   "titulo": "Solomito en tocineta",
+   "porciones": 4,
+   "tiempo": "Marinar 2 h + 1 h de horno",
+   "ingr": [
+    [
+     800,
+     "g",
+     "Solomito limpio",
+     1
+    ],
+    [
+     250,
+     "g",
+     "Tocineta en lonchas"
+    ],
+    [
+     3,
+     "cda",
+     "Mostaza"
+    ],
+    [
+     60,
+     "ml",
+     "Aceite de girasol"
+    ],
+    [
+     60,
+     "ml",
+     "Salsa de soya"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta al gusto"
+    ]
+   ],
+   "pasos": [
+    "Mezcle el aceite, la salsa de soya, la mostaza, la sal y la pimienta y marine el solomito por lo menos 2 horas.",
+    "Envuelva el solomito completo con la tocineta, cubriéndolo bien.",
+    "Lleve al horno envuelto en papel aluminio durante 1 hora.",
+    "Retire el papel y deje que la tocineta se dore. Saque el solomito, déjelo reposar 5 minutos y córtelo en tajadas."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/solomito.webp"
+ },
+ {
+  "id": "solomo-redondo",
+  "esp": "bovina",
+  "n": "Solomo redondo",
+  "sub": "Chata · Lomo ancho · Lomo redondo",
+  "grupo": "Cuarto posterior · Lomo",
+  "imps": "180",
+  "alias": [
+   "Chata",
+   "Lomo ancho",
+   "Lomo redondo",
+   "Churrasco",
+   "Strip loin",
+   "Lomo de caracha"
+  ],
+  "reg": {
+   "Medellín": "Solomo redondo",
+   "Bogotá": "Chata",
+   "Santander": "Chata",
+   "Cali / Eje Cafetero": "Lomo redondo",
+   "Costa Caribe": "Lomo ancho"
+  },
+  "desc": "Uno de los cortes más blandos, ubicado a lo largo de la columna vertebral del novillo, con una capa de grasa de cobertura. Muy versátil: puede cortarse en churrasco o en medallones. De muy buen sabor.",
+  "peso": 5.8,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "asar",
+   "freir",
+   "parrillar"
+  ],
+  "fmt": [
+   "filetes",
+   "medallones",
+   "entero"
+  ],
+  "sus": [
+   "Solomito",
+   "Solomo extranjero",
+   "Punta de anca"
+  ],
+  "nut": {
+   "p": 26.3,
+   "g": 2.4,
+   "fe": 3,
+   "pho": 180.9,
+   "src": "a"
+  },
+  "emp": {
+   "pres": "Entero 1–1,2 kg · porción 0,6–0,8 kg",
+   "bandeja": "Porciones: 4-1 blanca",
+   "env": "Pieza entera empacada al vacío; porciones en bandeja con almohadilla y vitafil",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Si lo cocina como churrasco deje la grasa de cobertura: aporta jugosidad y sabor. Selle a fuego alto y termine a punto medio.",
+  "rec": {
+   "titulo": "Solomo con aceitunas",
+   "porciones": 4,
+   "tiempo": "45 min",
+   "ingr": [
+    [
+     700,
+     "g",
+     "Solomo redondo en filetes",
+     1
+    ],
+    [
+     100,
+     "g",
+     "Aceitunas"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla de huevo en tiras"
+    ],
+    [
+     2,
+     "dientes",
+     "Ajo (uno para aliñar y uno picado)"
+    ],
+    [
+     125,
+     "ml",
+     "Vino tinto"
+    ],
+    [
+     6,
+     "cda",
+     "Harina"
+    ],
+    [
+     1,
+     "u",
+     "Cubo de caldo de carne"
+    ],
+    [
+     80,
+     "ml",
+     "Aceite para freír"
+    ],
+    [
+     null,
+     "",
+     "Sal (poca: las aceitunas ya tienen) y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Aliñe los filetes con ajo, sal y pimienta. Páselos por 4 cucharadas de harina y fríalos en aceite caliente; resérvelos.",
+    "En el mismo aceite dore las tiras de cebolla. Añada la harina restante, el ajo picado y el cubo de caldo.",
+    "Incorpore los filetes, sazone y cocine a fuego lento unos 20 minutos.",
+    "Agregue el vino y las aceitunas y cocine hasta que la carne esté tierna. Cuide la sal."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/solomo-redondo.webp"
+ },
+ {
+  "id": "punta-de-anca",
+  "esp": "bovina",
+  "n": "Punta de anca",
+  "sub": "Punta gorda · Picanha · Sirloin especial",
+  "grupo": "Cuarto posterior · Pierna",
+  "imps": "184D",
+  "alias": [
+   "Punta gorda",
+   "Picanha",
+   "Sirloin especial",
+   "Tapa de cuadril",
+   "Top sirloin cap"
+  ],
+  "reg": {
+   "Medellín": "Punta de anca",
+   "Bogotá": "Punta de anca",
+   "Santander": "Punta de anca",
+   "Cali / Eje Cafetero": "Punta de anca",
+   "Costa Caribe": "Punta gorda"
+  },
+  "desc": "Delicioso corte especialmente apetecido para asados. Tiene una cobertura de grasa superficial que, al asarse, le imprime un sabor característico. Forma parte del bíceps femoral, en la pierna del novillo, con buena terneza y sabor.",
+  "peso": 1.5,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "asar",
+   "parrillar",
+   "hornear"
+  ],
+  "fmt": [
+   "filetes",
+   "entero"
+  ],
+  "sus": [
+   "Chata (solomo redondo)",
+   "Solomo extranjero"
+  ],
+  "nut": {
+   "p": 23.5,
+   "g": 2.2,
+   "fe": 2.1,
+   "src": "a"
+  },
+  "emp": {
+   "pres": "Filete mariposa · 2 porciones por bandeja (también aliñada)",
+   "bandeja": "Bandeja con almohadilla para 2 porciones mariposa",
+   "env": "Pieza entera empacada al vacío; filete mariposa en bandeja con vitafil",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja. La versión aliñada se exhibe en Preparados con sticker de «producto condimentado» bajo el precio"
+  },
+  "tip": "Asar con la grasa hacia arriba y no retirarla antes de cocinar. Cortar la carne en tajadas delgadas y en contra de la fibra.",
+  "rec": {
+   "titulo": "Punta de anca al horno",
+   "porciones": 6,
+   "tiempo": "1 h 30 min",
+   "ingr": [
+    [
+     1500,
+     "g",
+     "Punta de anca",
+     1
+    ],
+    [
+     null,
+     "",
+     "Harina de trigo (abundante, para cubrir la grasa)"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Seque la punta de anca con un trapo o papel de cocina.",
+    "Por el lado que tiene la grasa gruesa, unte harina de trigo en forma abundante y, por último, agregue sal y pimienta.",
+    "Llévela al horno con la harina hacia arriba durante 1 hora y media, o hasta que no salga sangre.",
+    "Sirva caliente, partida en tajadas delgadas y acompañada de ensalada."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/punta-de-anca.webp"
+ },
+ {
+  "id": "tabla",
+  "esp": "bovina",
+  "n": "Tabla",
+  "sub": "Centro de pierna · Capón · Centro de cadera",
+  "grupo": "Cuarto posterior · Pierna",
+  "imps": "168",
+  "alias": [
+   "Centro de pierna",
+   "Centro de cadera",
+   "Capón",
+   "Cesina",
+   "Entrepierna",
+   "Top round",
+   "Pierna"
+  ],
+  "reg": {
+   "Medellín": "Tabla",
+   "Bogotá": "Centro de pierna",
+   "Santander": "Cesina",
+   "Cali / Eje Cafetero": "Centro de cadera",
+   "Costa Caribe": "Capón"
+  },
+  "desc": "Uno de los cortes más magros y jugosos del novillo, lo que le da muy buena palatabilidad y una gran variedad de aplicaciones culinarias.",
+  "peso": 7.4,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "asar",
+   "freir",
+   "sudar"
+  ],
+  "fmt": [
+   "filetes",
+   "entero"
+  ],
+  "sus": [
+   "Huevo de aldana",
+   "Solomo extranjero"
+  ],
+  "nut": {
+   "p": 25.6,
+   "g": 1.2,
+   "fe": 2.3,
+   "src": "a"
+  },
+  "emp": {
+   "pres": "Entero o porciones de 0,5–0,78 kg",
+   "bandeja": "Porciones: 4-1 u 8-1 blanca · entero: 7-1 blanca",
+   "env": "Pieza entera empacada al vacío; porciones en bandeja con vitafil",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja. Como «Carne fondue», «Stroganoff» o rollitos se ubica en Gourmet"
+  },
+  "tip": "Al ser muy magro se seca con facilidad: filetes delgados, fuego alto y poco tiempo, o cocción húmeda en guisos.",
+  "rec": {
+   "titulo": "Pinchos de carne molida",
+   "porciones": 4,
+   "tiempo": "30 min",
+   "ingr": [
+    [
+     450,
+     "g",
+     "Tabla molida",
+     1
+    ],
+    [
+     110,
+     "g",
+     "Pierna de cerdo molida"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla de huevo rallada"
+    ],
+    [
+     1,
+     "u",
+     "Huevo"
+    ],
+    [
+     60,
+     "g",
+     "Migas de pan"
+    ],
+    [
+     1,
+     "cda",
+     "Aliño en polvo (tomillo, perejil, laurel, comino)"
+    ]
+   ],
+   "pasos": [
+    "En una copa honda mezcle y amase bien todos los ingredientes (la mezcla no debe quedar muy blanda; si hace falta agregue más miga de pan).",
+    "Forme con las manos un rollo grueso y páselo por el centro, a lo largo, con un palo para chuzos.",
+    "En una plancha ligeramente engrasada (o un sartén) ase los pinchos volteándolos con cuidado para no desbaratarlos."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/tabla.webp"
+ },
+ {
+  "id": "huevo-de-aldana",
+  "esp": "bovina",
+  "n": "Huevo de aldana",
+  "sub": "Bola negra · Bola de pierna",
+  "grupo": "Cuarto posterior · Pierna",
+  "imps": "167A",
+  "alias": [
+   "Bola negra",
+   "Bola de pierna",
+   "Carabela",
+   "Masa de chocozuela",
+   "Knuckle",
+   "Bola"
+  ],
+  "reg": {
+   "Medellín": "Huevo de aldana",
+   "Bogotá": "Bola de pierna",
+   "Santander": "Bola de pierna",
+   "Cali / Eje Cafetero": "Bola negra",
+   "Costa Caribe": "Carabela / masa de chocozuela"
+  },
+  "desc": "Corte de la pierna del novillo, de gran tamaño, redondeado y con poca grasa (cuádriceps femoral). Carne magra con bajo contenido de grasa.",
+  "peso": 4.4,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "asar",
+   "freir",
+   "sudar"
+  ],
+  "fmt": [
+   "filetes",
+   "medallones"
+  ],
+  "sus": [
+   "Milanesa de res (tablón / sabaleta)",
+   "Solomo extranjero"
+  ],
+  "nut": {
+   "p": 23.5,
+   "g": 1.5,
+   "fe": 2.3,
+   "src": "a"
+  },
+  "emp": {
+   "pres": "Filetes o milanesas · entero 0,8–0,9 kg · porción 0,6–0,7 kg",
+   "bandeja": "7-1 y 8-1 blanca",
+   "env": "Pieza entera empacada al vacío; porciones en bandeja con vinipel",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Ideal en milanesa o filetes delgados; en guisos (carne al vino) necesita cocción lenta para ablandar.",
+  "rec": {
+   "titulo": "Carne al vino",
+   "porciones": 6,
+   "tiempo": "2 h",
+   "ingr": [
+    [
+     1000,
+     "g",
+     "Bola de pierna en dados",
+     1
+    ],
+    [
+     3,
+     "cda",
+     "Aceite"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla picada"
+    ],
+    [
+     500,
+     "ml",
+     "Vino tinto"
+    ],
+    [
+     3,
+     "dientes",
+     "Ajo picado"
+    ],
+    [
+     120,
+     "ml",
+     "Puré de tomate"
+    ],
+    [
+     50,
+     "g",
+     "Tocineta en daditos"
+    ],
+    [
+     3,
+     "cda",
+     "Harina"
+    ],
+    [
+     3,
+     "u",
+     "Zanahorias"
+    ],
+    [
+     2,
+     "u",
+     "Puerros"
+    ],
+    [
+     2,
+     "u",
+     "Hojas de laurel"
+    ],
+    [
+     250,
+     "g",
+     "Champiñones pequeños"
+    ]
+   ],
+   "pasos": [
+    "Caliente el aceite en una cazuela y rehogue la carne junto con la cebolla.",
+    "Cuando la carne esté dorada, espolvoree la harina y fría hasta que esté tostada.",
+    "Agregue el vino, los ajos, el puré de tomate y la tocineta; revuelva bien. Añada el laurel, los puerros y las zanahorias enteras.",
+    "Tape y cocine a fuego lento 1 hora y 30 minutos, o hasta que la carne esté bien tierna.",
+    "Retire la grasa de la superficie y las verduras, incorpore los champiñones y cocine 10 minutos más."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/huevo-de-aldana.webp"
+ },
+ {
+  "id": "solomo-extranjero",
+  "esp": "bovina",
+  "n": "Solomo extranjero",
+  "sub": "Cadera · Caderita · Tetafula",
+  "grupo": "Cuarto posterior · Pierna",
+  "imps": "184",
+  "alias": [
+   "Cadera",
+   "Caderita",
+   "Tetafula",
+   "Palomilla",
+   "Emparejadura",
+   "Colita de extranjero",
+   "Top sirloin"
+  ],
+  "reg": {
+   "Medellín": "Solomo extranjero",
+   "Bogotá": "Cadera",
+   "Santander": "Cadera",
+   "Cali / Eje Cafetero": "Caderita",
+   "Costa Caribe": "Tetafula / palomilla"
+  },
+  "desc": "Ubicado en la pierna del novillo. Pieza de buen sabor que, con un buen corte, ofrece suavidad y jugosidad ideales para los asados. Conocida también como «colita de extranjero».",
+  "peso": 4.4,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "asar",
+   "freir",
+   "parrillar"
+  ],
+  "fmt": [
+   "filetes",
+   "tiras"
+  ],
+  "sus": [
+   "Tabla",
+   "Huevo de aldana"
+  ],
+  "nut": {
+   "p": 22,
+   "g": 4,
+   "fe": 2,
+   "src": "x"
+  },
+  "emp": {
+   "pres": "Filete 0,4–0,8 kg · entero 0,5–0,6 kg",
+   "bandeja": "Filete: 4-1 u 8-1 blanca · porción: 7-1 blanca",
+   "env": "Pieza entera empacada al vacío; filetes y porciones en bandeja con vitafil",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Corte en contra de la fibra. Para asar, filetes de 1,5–2 cm; para saltear, tiras delgadas.",
+  "rec": {
+   "titulo": "Solomo extranjero al vino",
+   "porciones": 4,
+   "tiempo": "35 min",
+   "ingr": [
+    [
+     600,
+     "g",
+     "Solomo extranjero en tiras",
+     1
+    ],
+    [
+     80,
+     "ml",
+     "Vino seco"
+    ],
+    [
+     2,
+     "cda",
+     "Mantequilla"
+    ],
+    [
+     150,
+     "g",
+     "Champiñones laminados"
+    ],
+    [
+     2,
+     "dientes",
+     "Ajo picado"
+    ],
+    [
+     2,
+     "cda",
+     "Queso crema"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla cabezona picada"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "En un sartén dore la cebolla en una cucharada de mantequilla y mézclela con el queso crema.",
+    "En una olla (a presión si desea) derrita el resto de la mantequilla y dore la carne cortada en julianas.",
+    "Agregue los champiñones, el vino, la sal, la pimienta y el ajo.",
+    "Añada la cebolla dorada con el queso, tape y cocine hasta que la carne esté tierna."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/solomo-extranjero.webp"
+ },
+ {
+  "id": "muchacho",
+  "esp": "bovina",
+  "n": "Muchacho",
+  "sub": "Bollito · Peceto · Eye of round",
+  "grupo": "Cuarto posterior · Pierna",
+  "imps": "171C",
+  "alias": [
+   "Bollito",
+   "Bollo",
+   "Capón",
+   "Peceto",
+   "Eye of round"
+  ],
+  "reg": {
+   "Medellín": "Muchacho",
+   "Bogotá": "Muchacho",
+   "Cali / Eje Cafetero": "Muchacho",
+   "Costa Caribe": "Bollo"
+  },
+  "desc": "Corte de forma cilíndrica (músculo semitendinoso) ubicado en la pierna del novillo. Ideal para rellenar y porcionar en tajadas; su cobertura de grasa aporta sabor y textura en las preparaciones.",
+  "peso": 2.3,
+  "uso": "Cocinar",
+  "coc": [
+   "sudar",
+   "hornear"
+  ],
+  "fmt": [
+   "medallones",
+   "entero"
+  ],
+  "sus": [
+   "Posta (bota)"
+  ],
+  "nut": {
+   "p": 24,
+   "g": 1.7,
+   "fe": 1.7,
+   "src": "a"
+  },
+  "emp": {
+   "pres": "Entero o medallones; entero para rellenar",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; medallones en bandeja con vitafil",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja. Relleno se ubica en Preparados/Gourmet"
+  },
+  "tip": "Muy magro: ideal asado relleno o sudado lento; en tajadas delgadas y contra la fibra.",
+  "rec": {
+   "titulo": "Muchacho especial",
+   "porciones": 6,
+   "tiempo": "1 h 30 min",
+   "ingr": [
+    [
+     1400,
+     "g",
+     "Muchacho aliñado",
+     1
+    ],
+    [
+     1,
+     "u",
+     "Cebolla de huevo"
+    ],
+    [
+     4,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     3,
+     "u",
+     "Tomates maduros"
+    ],
+    [
+     1,
+     "cda",
+     "Perejil picado"
+    ],
+    [
+     3,
+     "cda",
+     "Mantequilla"
+    ],
+    [
+     1000,
+     "ml",
+     "Agua caliente"
+    ],
+    [
+     2,
+     "cda",
+     "Azúcar (para el caramelo)"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Aliñe el muchacho y sofríalo en la mantequilla precalentada hasta que quede dorado por ambos lados. Llévelo a la olla.",
+    "Con las 2 cucharadas de azúcar prepare un caramelo: derrítala en un sartén a fuego medio, sin revolver, hasta que tome un color ámbar.",
+    "Licúe o pique cebolla, ajo, tomate y perejil e incorpórelos junto con el caramelo.",
+    "Agregue el agua caliente, tape y cocine unos 50 minutos o hasta que la carne esté blanda.",
+    "Retire, corte en tajadas delgadas y sirva bañado con su salsa."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/muchacho.webp"
+ },
+ {
+  "id": "bota",
+  "esp": "bovina",
+  "n": "Bota",
+  "sub": "Posta · Ampolleta · Herradero",
+  "grupo": "Cuarto posterior · Pierna",
+  "imps": "171B",
+  "alias": [
+   "Posta",
+   "Herradero",
+   "Ampolleta",
+   "Anca",
+   "Atravesado",
+   "Bottom round",
+   "Nuez"
+  ],
+  "reg": {
+   "Medellín": "Posta",
+   "Bogotá": "Bota",
+   "Santander": "Herradero",
+   "Cali / Eje Cafetero": "Ampolleta / anca",
+   "Costa Caribe": "Atravesado"
+  },
+  "desc": "Corte largo, redondeado y cubierto de grasa que comprende el músculo bíceps femoral. Se ubica contiguo al muchacho, la cadera y la colita de cadera.",
+  "peso": null,
+  "uso": "Asar-Sofreír / Cocinar",
+  "coc": [
+   "sudar",
+   "asar"
+  ],
+  "fmt": [
+   "filetes",
+   "entero"
+  ],
+  "sus": [
+   "Muchacho",
+   "Tabla"
+  ],
+  "nut": {
+   "p": 24.6,
+   "g": 1.6,
+   "fe": 1.8,
+   "src": "a"
+  },
+  "emp": {
+   "pres": "Entero o filetes de 0,6–0,7 kg",
+   "bandeja": "Filetes: bandeja con almohadilla",
+   "env": "Pieza entera empacada al vacío; filetes en bandeja con vinipel",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Corte magro de fibra larga: mejor en cocción húmeda o en filetes delgados bien tiernizados.",
+  "rec": {
+   "titulo": "Posta sudada",
+   "porciones": 4,
+   "tiempo": "1 h",
+   "ingr": [
+    [
+     800,
+     "g",
+     "Bota (posta) en trozos",
+     1
+    ],
+    [
+     2,
+     "u",
+     "Tomates"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla larga"
+    ],
+    [
+     2,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     1,
+     "cdta",
+     "Comino"
+    ],
+    [
+     250,
+     "ml",
+     "Caldo o agua"
+    ],
+    [
+     2,
+     "cda",
+     "Aceite"
+    ],
+    [
+     2,
+     "cda",
+     "Cilantro picado"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Sazone la carne con sal, pimienta, ajo y comino.",
+    "Haga un hogao con la cebolla y el tomate en el aceite; agregue la carne y dórela.",
+    "Añada el caldo, tape y cocine a fuego bajo hasta que esté tierna (aprox. 45 minutos).",
+    "Termine con cilantro y sirva con arroz y papa."
+   ],
+   "fuente": "Sugerida"
+  },
+  "img": "img/cortes/bota.webp"
+ },
+ {
+  "id": "paletero",
+  "esp": "bovina",
+  "n": "Paletero",
+  "sub": "Palometa · Carnaza de paleta",
+  "grupo": "Cuarto anterior · Paleta",
+  "imps": "114D / 116E",
+  "alias": [
+   "Paletero interno",
+   "Paletero externo",
+   "Palometa",
+   "Carnaza de paleta",
+   "Brazo",
+   "Bola de paletero"
+  ],
+  "reg": {
+   "Medellín": "Paletero",
+   "Bogotá": "Paletero",
+   "Cali / Eje Cafetero": "Paletero",
+   "Costa Caribe": "Brazo"
+  },
+  "desc": "Localizado en la parte delantera del novillo, de contextura firme y muy buen sabor; en ocasiones presenta un marmóreo agradable al paladar. Se utiliza para sofreír y sudar.",
+  "peso": 1.7,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "sudar",
+   "asar",
+   "freir"
+  ],
+  "fmt": [
+   "filetes",
+   "tiras"
+  ],
+  "sus": [
+   "Milanesa de res",
+   "Carne para sudar"
+  ],
+  "nut": {
+   "p": 22.7,
+   "g": 4,
+   "fe": 2,
+   "src": "a"
+  },
+  "emp": {
+   "pres": "Filetes o milanesa bien limpia",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; filetes en bandeja con vitafil",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Excelente para sudar: la cocción lenta con tomate y cebolla lo vuelve muy jugoso.",
+  "rec": {
+   "titulo": "Carne sudada",
+   "porciones": 4,
+   "tiempo": "1 h",
+   "ingr": [
+    [
+     800,
+     "g",
+     "Paletero interno en trozos",
+     1
+    ],
+    [
+     2,
+     "u",
+     "Tomates"
+    ],
+    [
+     2,
+     "u",
+     "Cebollas largas"
+    ],
+    [
+     2,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     1,
+     "cdta",
+     "Comino"
+    ],
+    [
+     250,
+     "ml",
+     "Caldo o agua"
+    ],
+    [
+     2,
+     "cda",
+     "Aceite"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Sazone la carne con ajo, comino, sal y pimienta.",
+    "Sofría la carne en el aceite hasta dorar y añada la cebolla y el tomate picados.",
+    "Agregue el caldo, tape y cocine a fuego bajo hasta que la carne esté tierna y la salsa espese.",
+    "Deje reposar unos minutos y sirva."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/paletero.webp"
+ },
+ {
+  "id": "bola-de-brazo",
+  "esp": "bovina",
+  "n": "Bola de brazo",
+  "sub": "Tablón · Sabaleta · Bola de paleta",
+  "grupo": "Cuarto anterior · Paleta",
+  "imps": "114",
+  "alias": [
+   "Tablón",
+   "Sabaleta",
+   "Tablón sabaleta",
+   "Bola de paleta",
+   "Shoulder clod",
+   "Milanesa"
+  ],
+  "reg": {
+   "Medellín": "Tablón / sabaleta",
+   "Bogotá": "Bola de brazo",
+   "Cali / Eje Cafetero": "Bola de brazo",
+   "Costa Caribe": "Bola de brazo"
+  },
+  "desc": "Carne magra y blanda del cuarto delantero, con bajo contenido de grasa (músculo tríceps braquial). Ideal para asar, freír y, en ocasiones especiales, para parrilla. Se presenta en filetes o milanesas.",
+  "peso": 5,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "asar",
+   "freir",
+   "parrillar"
+  ],
+  "fmt": [
+   "filetes"
+  ],
+  "sus": [
+   "Huevo de aldana"
+  ],
+  "nut": {
+   "p": 21,
+   "g": 4,
+   "fe": 2.4,
+   "src": "x"
+  },
+  "emp": {
+   "pres": "Filetes o milanesas",
+   "bandeja": "Bandeja con almohadilla, según porción",
+   "env": "Pieza entera empacada al vacío; milanesas en bandeja con vinipel",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Golpee ligeramente las milanesas y fríalas en aceite bien caliente para que queden crocantes y jugosas.",
+  "rec": {
+   "titulo": "Milanesa de res empanizada",
+   "porciones": 4,
+   "tiempo": "30 min",
+   "ingr": [
+    [
+     500,
+     "g",
+     "Milanesas de bola de brazo",
+     1
+    ],
+    [
+     2,
+     "u",
+     "Huevos"
+    ],
+    [
+     120,
+     "g",
+     "Pan rallado"
+    ],
+    [
+     200,
+     "ml",
+     "Aceite para freír"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla en rodajas (acompañamiento)"
+    ],
+    [
+     null,
+     "",
+     "Sal, pimienta y ajo en polvo"
+    ]
+   ],
+   "pasos": [
+    "Sazone las milanesas con sal, pimienta y ajo.",
+    "Pase cada milanesa por huevo batido y luego por el pan rallado.",
+    "Fría en aceite caliente hasta que estén doradas por ambos lados.",
+    "Sirva con arroz, rodajas de cebolla y limón."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/bola-de-brazo.webp"
+ },
+ {
+  "id": "descargue",
+  "esp": "bovina",
+  "n": "Descargue",
+  "sub": "Huevo de solomo · Carne de sancocho",
+  "grupo": "Cuarto anterior · Paleta",
+  "imps": "Sin IMPS",
+  "alias": [
+   "Huevo de solomo",
+   "Sobaco",
+   "Carne de sancocho",
+   "Carne para sudar",
+   "Carne para sancocho"
+  ],
+  "reg": {
+   "Medellín": "Huevo de solomo",
+   "Bogotá": "Descargue",
+   "Cali / Eje Cafetero": "Sobaco",
+   "Costa Caribe": "Huevo de solomo / descargue"
+  },
+  "desc": "Corte ubicado en la parte delantera del lomo del novillo. Carne semiblanda de excelente gusto, ideal para sudar, desmechar, trocitos de goulash; parte del corte se usa como carne para asar o freír.",
+  "peso": 5.5,
+  "uso": "Sudar, desmechar, estofar, guisar",
+  "coc": [
+   "sudar",
+   "freir"
+  ],
+  "fmt": [
+   "tiras",
+   "filetes"
+  ],
+  "sus": [
+   "Morrillo",
+   "Pecho"
+  ],
+  "nut": {
+   "p": 16,
+   "g": 25.4,
+   "fe": 2.6,
+   "pho": 210,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Tiras, trocitos o cubos",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; cubos en bandeja con vinipel",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Cocción húmeda y larga: el tejido conectivo se vuelve gelatina y da cuerpo a caldos y guisos.",
+  "rec": {
+   "titulo": "Sancocho de res",
+   "porciones": 6,
+   "tiempo": "2 h",
+   "ingr": [
+    [
+     800,
+     "g",
+     "Carne de sancocho (descargue)",
+     1
+    ],
+    [
+     1,
+     "u",
+     "Plátano verde en trozos gruesos"
+    ],
+    [
+     500,
+     "g",
+     "Papa cola"
+    ],
+    [
+     300,
+     "g",
+     "Yuca"
+    ],
+    [
+     2,
+     "u",
+     "Mazorcas"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla cabezona picada"
+    ],
+    [
+     1,
+     "u",
+     "Zanahoria"
+    ],
+    [
+     2500,
+     "ml",
+     "Agua"
+    ],
+    [
+     null,
+     "",
+     "Cilantro y sal al gusto"
+    ]
+   ],
+   "pasos": [
+    "Cocine la carne en el agua para que suelte el jugo.",
+    "Agregue sal, la cebolla, la zanahoria y los demás ingredientes (papa, yuca y mazorca).",
+    "Añada el plátano al final, cuando el agua esté en su punto, para que no se deshaga.",
+    "Sirva en cazuela con la carne, cilantro picado y arroz aparte."
+   ],
+   "fuente": "Éxito"
+  }
+ },
+ {
+  "id": "sobrebarriga-delgada",
+  "esp": "bovina",
+  "n": "Sobrebarriga delgada",
+  "sub": "Tres telas · Tapa de costilla",
+  "grupo": "Cuarto anterior · Falda",
+  "imps": "Sin IMPS",
+  "alias": [
+   "Sobrebarriga",
+   "Tres telas",
+   "Tapa de costilla",
+   "Matambre",
+   "Fralda"
+  ],
+  "reg": {
+   "Medellín": "Sobrebarriga delgada",
+   "Bogotá": "Sobrebarriga delgada",
+   "Cali / Eje Cafetero": "Sobrebarriga delgada",
+   "Costa Caribe": "Sobrebarriga delgada"
+  },
+  "desc": "Corte que cubre la costilla; delgado, de color rosado y exquisito sabor. Muy utilizado para rellenar y sudar.",
+  "peso": 1.2,
+  "uso": "Cocinar",
+  "coc": [
+   "sudar",
+   "hornear"
+  ],
+  "fmt": [
+   "entero"
+  ],
+  "sus": [
+   "Sobrebarriga gruesa",
+   "Carne para sancocho"
+  ],
+  "nut": {
+   "p": 16,
+   "g": 25.4,
+   "fe": 2.6,
+   "pho": 210,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Trozo de 0,5–0,6 kg (también entera para rellenar)",
+   "bandeja": "Bandeja con almohadilla, según tamaño",
+   "env": "Pieza entera empacada al vacío; trozos en bandeja con vitafil",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Cocción lenta en olla o al horno cubierta; al enfriarse se corta mejor en láminas.",
+  "rec": {
+   "titulo": "Sobrebarriga sudada",
+   "porciones": 4,
+   "tiempo": "1 h 30 min",
+   "ingr": [
+    [
+     800,
+     "g",
+     "Sobrebarriga delgada",
+     1
+    ],
+    [
+     2,
+     "u",
+     "Tomates"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla cabezona"
+    ],
+    [
+     2,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     1,
+     "cdta",
+     "Comino"
+    ],
+    [
+     500,
+     "ml",
+     "Agua o caldo"
+    ],
+    [
+     500,
+     "g",
+     "Papa criolla"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Sazone la sobrebarriga con ajo, comino, sal y pimienta.",
+    "Selle en una olla con un poco de aceite y agregue cebolla y tomate picados.",
+    "Añada el caldo, tape y cocine a fuego bajo 1 hora o hasta que ablande.",
+    "Incorpore las papas los últimos 20 minutos y sirva bañada con la salsa."
+   ],
+   "fuente": "Sugerida"
+  },
+  "img": "img/cortes/sobrebarriga-delgada.webp"
+ },
+ {
+  "id": "sobrebarriga-gruesa",
+  "esp": "bovina",
+  "n": "Sobrebarriga gruesa",
+  "sub": "Entrepecho · Espaldilla",
+  "grupo": "Cuarto anterior · Falda / Pecho",
+  "imps": "—",
+  "alias": [
+   "Entrepecho",
+   "Espaldilla",
+   "Pecho",
+   "Carne para desmechar",
+   "Carne para sudar"
+  ],
+  "reg": {
+   "Medellín": "Entrepecho",
+   "Bogotá": "Sobrebarriga gruesa",
+   "Cali / Eje Cafetero": "Pecho",
+   "Costa Caribe": "Espaldilla"
+  },
+  "desc": "Se caracteriza por estar compuesto de grasa entreverada, lo que la hace ideal para cocción húmeda. Muy apetecida para sudar y deshebrar.",
+  "peso": 4.6,
+  "uso": "Cocinar",
+  "coc": [
+   "sudar"
+  ],
+  "fmt": [
+   "tiras",
+   "filetes"
+  ],
+  "sus": [
+   "Carne para sudar",
+   "Carne para sancocho"
+  ],
+  "nut": {
+   "p": 16,
+   "g": 25.4,
+   "fe": 2.6,
+   "pho": 210,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Tiras o filetes para desmechar",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; tiras en bandeja con vinipel",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Perfecta para desmechar: cocine con tapa hasta que las fibras se separen con un tenedor.",
+  "rec": {
+   "titulo": "Carne desmechada criolla",
+   "porciones": 6,
+   "tiempo": "2 h",
+   "ingr": [
+    [
+     1000,
+     "g",
+     "Sobrebarriga gruesa",
+     1
+    ],
+    [
+     2,
+     "u",
+     "Tomates"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla cabezona"
+    ],
+    [
+     1,
+     "u",
+     "Pimentón"
+    ],
+    [
+     3,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     1,
+     "cdta",
+     "Comino"
+    ],
+    [
+     1500,
+     "ml",
+     "Agua"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Cocine la carne con agua, ajo, sal y pimienta hasta que esté muy blanda (aprox. 1 h 30 min).",
+    "Deje enfriar un poco y desmeche en hebras.",
+    "Prepare un hogao con cebolla, tomate, pimentón y comino; agregue la carne y un poco de caldo.",
+    "Cocine 10 minutos más hasta integrar sabores."
+   ],
+   "fuente": "Sugerida"
+  }
+ },
+ {
+  "id": "morrillo",
+  "esp": "bovina",
+  "n": "Morrillo",
+  "sub": "Morro · Giba · Cupim",
+  "grupo": "Cuarto anterior · Dorso",
+  "imps": "Sin IMPS",
+  "alias": [
+   "Morro",
+   "Giba",
+   "Cupim",
+   "Hump"
+  ],
+  "reg": {
+   "Medellín": "Morrillo",
+   "Bogotá": "Morrillo",
+   "Cali / Eje Cafetero": "Morrillo",
+   "Costa Caribe": "Morrillo"
+  },
+  "desc": "Corte de la parte delantera del lomo del novillo (bien desarrollado en ganado cebú). Carne semiblanda con buen marmoleo que la hace jugosa y sabrosa. Ideal para sudar y, en condiciones muy magras, para asar.",
+  "peso": 4.8,
+  "uso": "Asar-Sofreír / Sudar",
+  "coc": [
+   "sudar",
+   "asar"
+  ],
+  "fmt": [
+   "tiras",
+   "entero"
+  ],
+  "sus": [
+   "Sobrebarriga",
+   "Pecho",
+   "Carne para sudar"
+  ],
+  "nut": {
+   "p": 16,
+   "g": 25.4,
+   "fe": 2.6,
+   "pho": 210,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Entero o en tiras",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; tiras en bandeja con vinipel",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "En olla a presión queda tierno en menos de una hora; también se asa lento en horno.",
+  "rec": {
+   "titulo": "Morrillo en olla a presión",
+   "porciones": 6,
+   "tiempo": "1 h 15 min",
+   "ingr": [
+    [
+     1400,
+     "g",
+     "Morrillo",
+     1
+    ],
+    [
+     2,
+     "u",
+     "Cebollas"
+    ],
+    [
+     1,
+     "u",
+     "Zanahoria"
+    ],
+    [
+     1,
+     "u",
+     "Pimentón rojo"
+    ],
+    [
+     3,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     2,
+     "tallos",
+     "Cebolla de rama"
+    ],
+    [
+     null,
+     "",
+     "Sal, pimienta y agua suficiente"
+    ]
+   ],
+   "pasos": [
+    "Ponga una olla a presión al fuego con suficiente agua para cubrir la carne.",
+    "Cuando hierva agregue el morrillo, las cebollas, la zanahoria, el pimentón, los ajos y la cebolla de rama.",
+    "Tape la olla y déjela pitar por unos 40 minutos.",
+    "Saque la carne, déjela reposar y córtela en tajadas; sírvala con su salsa."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/morrillo.webp"
+ },
+ {
+  "id": "murillo",
+  "esp": "bovina",
+  "n": "Murillo",
+  "sub": "Tabliado · Lagarto · Jarrete",
+  "grupo": "Cuarto posterior · Pierna",
+  "imps": "171F",
+  "alias": [
+   "Tabliado",
+   "Tableado",
+   "Lagarto",
+   "Pepino",
+   "Jarrete",
+   "Cohete",
+   "Lagarto de pierna",
+   "Heel of round"
+  ],
+  "reg": {
+   "Medellín": "Tabliado / lagarto",
+   "Bogotá": "Murillo",
+   "Santander": "Murillo",
+   "Cali / Eje Cafetero": "Pepino",
+   "Costa Caribe": "Jarrete / cohete"
+  },
+  "desc": "Por su ubicación (parte inferior de las extremidades) es poco blando y de fibras musculares largas. Es uno de los cortes más duros de la canal; ideal para moler o guisar lentamente.",
+  "peso": 2.9,
+  "uso": "Cocinar",
+  "coc": [
+   "sudar"
+  ],
+  "fmt": [
+   "medallones",
+   "tiras"
+  ],
+  "sus": [
+   "Carne para sudar"
+  ],
+  "nut": {
+   "p": 24.9,
+   "g": 2.5,
+   "fe": 2.1,
+   "src": "a"
+  },
+  "emp": {
+   "pres": "Medallones o trozos",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; medallones en bandeja con vinipel",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Cocción húmeda y lenta: el colágeno se transforma en gelatina y la carne queda melosa.",
+  "rec": {
+   "titulo": "Murillo estofado",
+   "porciones": 4,
+   "tiempo": "2 h",
+   "ingr": [
+    [
+     1000,
+     "g",
+     "Murillo",
+     1
+    ],
+    [
+     1,
+     "u",
+     "Cebolla"
+    ],
+    [
+     2,
+     "u",
+     "Puerros"
+    ],
+    [
+     2,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     1,
+     "cda",
+     "Perejil picado"
+    ],
+    [
+     2,
+     "cda",
+     "Harina"
+    ],
+    [
+     500,
+     "ml",
+     "Caldo de carne"
+    ],
+    [
+     2,
+     "u",
+     "Zanahorias"
+    ],
+    [
+     2,
+     "cda",
+     "Aceite"
+    ],
+    [
+     600,
+     "g",
+     "Papa para el puré"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Pele y pique la cebolla, los puerros y los ajos. Salpimiente el murillo y enharínelo para que no pierda su jugo.",
+    "En una cacerola caliente el aceite, dore el murillo y luego las verduras.",
+    "Agregue el caldo, tape y cocine a fuego lento hasta que esté muy tierno (aprox. 1 h 30 min).",
+    "Mientras tanto cocine las papas y prepare el puré. Sirva el murillo con el puré y la salsa de la cocción."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/murillo.webp"
+ },
+ {
+  "id": "costilla-res",
+  "esp": "bovina",
+  "n": "Costilla de res",
+  "sub": "Costilla · Short ribs",
+  "grupo": "Cuarto anterior · Costillar",
+  "imps": "123",
+  "alias": [
+   "Costilla",
+   "Hueso de res",
+   "Short ribs",
+   "Hueso carnudo"
+  ],
+  "reg": {
+   "Medellín": "Costilla de res",
+   "Bogotá": "Costilla de res",
+   "Cali / Eje Cafetero": "Costilla de res",
+   "Costa Caribe": "Costilla de res"
+  },
+  "desc": "Conformado por las costillas de la res cubiertas con carne, ubicadas en la parte central del animal. Separada del espinazo se parte en tiras y es ideal para casi todo tipo de usos.",
+  "peso": 6.4,
+  "uso": "Cocinar",
+  "coc": [
+   "sudar",
+   "hornear"
+  ],
+  "fmt": [
+   "tiras"
+  ],
+  "sus": [
+   "Entrepecho",
+   "Carne para sudar",
+   "Hueso carnudo"
+  ],
+  "nut": {
+   "p": 16,
+   "g": 25.4,
+   "fe": 2.6,
+   "pho": 210,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Costilla en tiras",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; tiras en bandeja con vitafil",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "El hueso aporta sabor a caldos; a baja temperatura la carne se desprende sola.",
+  "rec": {
+   "titulo": "Costilla de res al horno",
+   "porciones": 4,
+   "tiempo": "3 h",
+   "ingr": [
+    [
+     1500,
+     "g",
+     "Costilla de res",
+     1
+    ],
+    [
+     3,
+     "dientes",
+     "Ajo picado"
+    ],
+    [
+     2,
+     "cda",
+     "Salsa de soya"
+    ],
+    [
+     1,
+     "cda",
+     "Mostaza"
+    ],
+    [
+     250,
+     "ml",
+     "Caldo"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla en rodajas"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Mezcle ajo, soya, mostaza, sal y pimienta y unte las costillas; deje reposar 30 minutos.",
+    "Ponga las costillas sobre la cebolla en una bandeja con el caldo y cubra con papel aluminio.",
+    "Hornee a 150–160 °C entre 2 h 30 min y 3 h, hasta que la carne se desprenda del hueso.",
+    "Destape los últimos 15 minutos para dorar."
+   ],
+   "fuente": "Sugerida"
+  },
+  "img": "img/cortes/costilla-res.webp"
+ },
+ {
+  "id": "cola-res",
+  "esp": "bovina",
+  "n": "Cola de res",
+  "sub": "Rabo del novillo",
+  "grupo": "Subproducto · Cola",
+  "imps": "—",
+  "alias": [
+   "Rabo",
+   "Rabo de res",
+   "Cola",
+   "Oxtail"
+  ],
+  "reg": {
+   "Medellín": "Cola de res",
+   "Bogotá": "Cola de res",
+   "Cali / Eje Cafetero": "Cola de res",
+   "Costa Caribe": "Cola de res"
+  },
+  "desc": "También conocida como el rabo del novillo. Se presenta fraccionada con un cuchillo en cada coyuntura para facilitar su preparación. Se usa para potenciar el sabor de caldos y sopas.",
+  "peso": 0.6,
+  "uso": "Cocinar",
+  "coc": [
+   "sudar"
+  ],
+  "fmt": [
+   "medallones"
+  ],
+  "sus": [
+   "Costilla de res",
+   "Hueso carnudo"
+  ],
+  "nut": {
+   "p": 18.7,
+   "g": 16.9,
+   "fe": 3.1,
+   "pho": 210.6,
+   "src": "e"
+  },
+  "emp": {
+   "pres": "Rodajas fraccionadas por coyuntura",
+   "bandeja": "Bandeja con almohadilla",
+   "env": "Pieza entera empacada al vacío; rodajas en bandeja con vinipel",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Rica en colágeno; cocínela 2–3 horas a fuego bajo para obtener una salsa untuosa.",
+  "rec": {
+   "titulo": "Cola de res estofada",
+   "porciones": 4,
+   "tiempo": "3 h",
+   "ingr": [
+    [
+     1000,
+     "g",
+     "Cola de res troceada",
+     1
+    ],
+    [
+     1,
+     "u",
+     "Cebolla"
+    ],
+    [
+     2,
+     "u",
+     "Zanahorias"
+    ],
+    [
+     3,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     250,
+     "ml",
+     "Vino tinto"
+    ],
+    [
+     500,
+     "ml",
+     "Caldo de carne"
+    ],
+    [
+     2,
+     "u",
+     "Hojas de laurel"
+    ],
+    [
+     500,
+     "g",
+     "Papa"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Salpimiente y selle los trozos de cola en una olla hasta dorar.",
+    "Agregue cebolla, zanahoria y ajo; sofría unos minutos.",
+    "Añada el vino, el caldo y el laurel, tape y cocine a fuego bajo 2 horas.",
+    "Incorpore las papas los últimos 30 minutos y sirva."
+   ],
+   "fuente": "Sugerida"
+  }
+ },
+ {
+  "id": "pecho",
+  "esp": "bovina",
+  "n": "Pecho de res",
+  "sub": "Brisket · Porción familiar",
+  "grupo": "Cuarto anterior · Pecho",
+  "imps": "120",
+  "alias": [
+   "Pecho",
+   "Brisket",
+   "Granito",
+   "Porción familiar"
+  ],
+  "reg": {
+   "Medellín": "Pecho",
+   "Bogotá": "Pecho",
+   "Cali / Eje Cafetero": "Pecho",
+   "Costa Caribe": "Pecho"
+  },
+  "desc": "Corte de carne que cubre el esternón (músculos pectorales). Rico en tejido conectivo, es ideal para cocciones lentas.",
+  "peso": 2.3,
+  "uso": "Cocinar",
+  "coc": [
+   "sudar",
+   "hornear"
+  ],
+  "fmt": [
+   "tiras",
+   "entero"
+  ],
+  "sus": [
+   "Sobrebarriga gruesa",
+   "Morrillo"
+  ],
+  "nut": {
+   "p": 18,
+   "g": 12,
+   "fe": 2.4,
+   "src": "x"
+  },
+  "emp": {
+   "pres": "Tiras de 2–2,5 kg (porción familiar)",
+   "bandeja": "25-1 blanca",
+   "env": "Pieza entera empacada al vacío; tiras en bandeja con vitafil",
+   "exh": "Categoría Res, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Cocción lenta y tapada (horno a baja temperatura o olla); córtelo contra la fibra al servir.",
+  "rec": {
+   "titulo": "Pecho al horno con cerveza",
+   "porciones": 6,
+   "tiempo": "3 h",
+   "ingr": [
+    [
+     2000,
+     "g",
+     "Pecho de res",
+     1
+    ],
+    [
+     330,
+     "ml",
+     "Cerveza oscura"
+    ],
+    [
+     2,
+     "u",
+     "Cebollas"
+    ],
+    [
+     4,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     2,
+     "cda",
+     "Salsa inglesa"
+    ],
+    [
+     1,
+     "cda",
+     "Pimentón ahumado"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Sazone el pecho con sal, pimienta, pimentón y salsa inglesa.",
+    "Selle en sartén caliente por ambos lados.",
+    "Póngalo en una bandeja con cebolla, ajo y cerveza; cubra con aluminio.",
+    "Hornee a 150 °C entre 2 h 30 min y 3 h. Deje reposar 15 minutos y corte contra la fibra."
+   ],
+   "fuente": "Sugerida"
+  },
+  "img": "img/cortes/pecho.webp"
+ },
+ {
+  "id": "solomito-cerdo",
+  "esp": "porcina",
+  "n": "Solomito de cerdo",
+  "sub": "Lomito · Lomo viche de cerdo",
+  "grupo": "Lomo · Músculo psoas",
+  "imps": "Cód. D402",
+  "alias": [
+   "Lomito de cerdo",
+   "Lomito",
+   "Solomo",
+   "Filete",
+   "Lomo viche"
+  ],
+  "reg": {
+   "Medellín": "Solomito de cerdo",
+   "Bogotá": "Lomito de cerdo",
+   "Cali / Eje Cafetero": "Lomito / lomo viche",
+   "Costa Caribe": "Lomito de cerdo"
+  },
+  "desc": "Filetes finos del lomo del cerdo (músculos psoas mayor, menor e ilíaco) con muy bajo contenido de grasa. Listos para su preparación, de sabor suave y jugoso.",
+  "peso": 0.45,
+  "uso": "Hornear",
+  "coc": [
+   "hornear",
+   "asar",
+   "parrillar"
+  ],
+  "fmt": [
+   "medallones",
+   "filetes",
+   "entero"
+  ],
+  "sus": [
+   "Cañón de cerdo"
+  ],
+  "nut": {
+   "p": 18.5,
+   "g": 11.9,
+   "fe": 2,
+   "pho": 220,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Medallones, filetes o entero · 0,7–0,8 kg",
+   "bandeja": "Entero: 7-1 blanca · filete: 4-1 blanca",
+   "env": "Pieza entera empacada al vacío; medallones de 2,5 cm en bandeja con vitafil",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Retire del fuego a 65–69 °C: sube un par de grados por calor residual. El centro ligeramente rosado es sinónimo de jugosidad.",
+  "rec": {
+   "titulo": "Solomito con salsa de mandarina y puré verde",
+   "porciones": 4,
+   "tiempo": "45 min",
+   "ingr": [
+    [
+     600,
+     "g",
+     "Solomito de cerdo",
+     1
+    ],
+    [
+     400,
+     "g",
+     "Espinaca para el puré"
+    ],
+    [
+     400,
+     "g",
+     "Arroz cocinado"
+    ],
+    [
+     3,
+     "u",
+     "Mandarinas (zumo)"
+    ],
+    [
+     2,
+     "cda",
+     "Azúcar"
+    ],
+    [
+     0.5,
+     "u",
+     "Cebolla"
+    ],
+    [
+     120,
+     "ml",
+     "Caldo"
+    ],
+    [
+     2,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     2,
+     "cda",
+     "Aceite vegetal"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Mezcle el zumo de mandarina y el azúcar y lleve a cocción hasta formar una salsa ligera.",
+    "Salpimiente el solomito y dórelo en aceite con ajo y cebolla; hornee o termine en el sartén hasta 65–69 °C internos.",
+    "Prepare el puré verde licuando la espinaca cocida con parte del caldo y sal.",
+    "Sirva el solomito en medallones, bañado con la salsa, con el puré y el arroz."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/solomito-cerdo.webp"
+ },
+ {
+  "id": "canon",
+  "esp": "porcina",
+  "n": "Cañón de cerdo",
+  "sub": "Lomo de cerdo · Cordón",
+  "grupo": "Lomo · Longissimus dorsi",
+  "imps": "Cód. D401",
+  "alias": [
+   "Cañon",
+   "Lomo de cerdo",
+   "Lomo limpio",
+   "Cordón",
+   "Lomo"
+  ],
+  "reg": {
+   "Medellín": "Cañón",
+   "Bogotá": "Lomo de cerdo",
+   "Santander": "Lomo de cerdo",
+   "Cali / Eje Cafetero": "Lomo de cerdo (Eje: cordón)",
+   "Costa Caribe": "Lomo de cerdo"
+  },
+  "desc": "Carne blanda y con bajo contenido de grasa, ubicada a lo largo de la columna vertebral (músculo longissimus dorsi). Su poca cobertura de grasa es vital para impregnar sabor y jugosidad. Se recomienda servir con salsas.",
+  "peso": 3,
+  "uso": "Hornear / Medallones y mariposa",
+  "coc": [
+   "hornear",
+   "asar",
+   "parrillar"
+  ],
+  "fmt": [
+   "medallones",
+   "filetes",
+   "entero"
+  ],
+  "sus": [
+   "Carne de cerdo",
+   "Milanesa de cerdo"
+  ],
+  "nut": {
+   "p": 16.3,
+   "g": 24.5,
+   "fe": 1.5,
+   "pho": 190,
+   "src": "r",
+   "nota": "La grasa indicada (24,5 g/100 g) parece alta para un corte descrito como magro (lomo). Verifícala con la fuente antes de usarla para cálculos nutricionales."
+  },
+  "emp": {
+   "pres": "Medallones, filete o entero · 0,5–0,7 kg",
+   "bandeja": "7-1 y 4-1 blanca",
+   "env": "Pieza entera empacada al vacío; medallones/filetes en bandeja con vitafil",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "En horno use 180 °C para piezas enteras y proteja con aluminio para evitar la «costra». Deje reposar antes de cortar.",
+  "rec": {
+   "titulo": "Cañón de cerdo a la cerveza",
+   "porciones": 8,
+   "tiempo": "1 h 30 min",
+   "ingr": [
+    [
+     1800,
+     "g",
+     "Lomo de cerdo (cañón)",
+     1
+    ],
+    [
+     1,
+     "u",
+     "Cebolla cabezona rallada fina"
+    ],
+    [
+     4,
+     "dientes",
+     "Ajo picado"
+    ],
+    [
+     2,
+     "u",
+     "Hojas de laurel"
+    ],
+    [
+     1,
+     "cda",
+     "Tomillo"
+    ],
+    [
+     2,
+     "u",
+     "Limones (jugo)"
+    ],
+    [
+     2,
+     "cda",
+     "Aceite vegetal"
+    ],
+    [
+     330,
+     "ml",
+     "Cerveza"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Prepare una salmuera con jugo de limón, cebolla, ajos, laurel, tomillo, sal y pimienta. Frote bien el lomo por todas partes.",
+    "Deje reposar en un recipiente cubierto en la nevera hasta el día siguiente.",
+    "Lleve a horno precalentado a 180 °C, rociando con la cerveza y el aceite mientras se asa (1 h a 1 h 30 min según grosor).",
+    "Retire cuando el centro marque 65–70 °C, deje reposar y corte en medallones."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/canon.webp"
+ },
+ {
+  "id": "chuleta-especial",
+  "esp": "porcina",
+  "n": "Chuleta especial de cerdo",
+  "sub": "Chuleta de lomo con hueso",
+  "grupo": "Lomo · Chuleta",
+  "imps": "Cód. D4011",
+  "alias": [
+   "Chuleta",
+   "Chuleta de lomo",
+   "Chuleta con hueso",
+   "Chuleta doble",
+   "Silla",
+   "Chuleta mariposa"
+  ],
+  "reg": {
+   "Medellín": "Chuleta especial",
+   "Bogotá": "Chuleta especial",
+   "Cali / Eje Cafetero": "Chuleta especial",
+   "Costa Caribe": "Chuleta especial"
+  },
+  "desc": "Corte de cerdo compuesto por una porción de lomo adherida a una costilla y parte del espinazo. Permite platos de delicioso sabor y consistencia. Generalmente se consume cocido y ahumado; acompañar con salsas.",
+  "peso": 6,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "asar",
+   "freir",
+   "parrillar"
+  ],
+  "fmt": [
+   "medallones",
+   "filetes"
+  ],
+  "sus": [
+   "Pernil de cerdo"
+  ],
+  "nut": {
+   "p": 16.5,
+   "g": 19.7,
+   "fe": 2,
+   "pho": 180,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Chuletas de 1,5–2 cm · 4 uds 0,6–0,7 kg · 2 uds ~0,4 kg",
+   "bandeja": "4 chuletas: 4-1 blanca · 2 chuletas: 7-1 blanca",
+   "env": "Pieza entera empacada al vacío; chuletas en bandeja con vitafil",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "No las sobrecocine ni las pinche al voltear (solo una vez): pierden jugos y se endurecen.",
+  "rec": {
+   "titulo": "Chuleta de cerdo con salsa de limón",
+   "porciones": 4,
+   "tiempo": "40 min",
+   "ingr": [
+    [
+     4,
+     "u",
+     "Chuletas de 2 a 2,5 cm de grueso",
+     1
+    ],
+    [
+     600,
+     "g",
+     "Papa sabanera"
+    ],
+    [
+     2,
+     "u",
+     "Limones"
+    ],
+    [
+     1,
+     "u",
+     "Pimentón"
+    ],
+    [
+     1,
+     "diente",
+     "Ajo"
+    ],
+    [
+     2,
+     "cda",
+     "Aceite"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Cocine las papas en agua a fuego medio y prepare un puré.",
+    "Dore las chuletas por un lado y voltéelas cuando salgan los primeros jugos.",
+    "Prepare la salsa con jugo de limón y ajo, agregue a las chuletas y deje cocinar un poco más.",
+    "Saltee el pimentón en un sartén y sirva las chuletas con el puré y la salsa."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/chuleta-especial.webp"
+ },
+ {
+  "id": "pierna-cerdo",
+  "esp": "porcina",
+  "n": "Pierna de cerdo",
+  "sub": "Pernil · Centro de pierna",
+  "grupo": "Corte primario · Pierna",
+  "imps": "Cód. A100",
+  "alias": [
+   "Pernil",
+   "Centro de pierna",
+   "Carne de cerdo",
+   "Pierna sin piel",
+   "Bola de pierna de cerdo"
+  ],
+  "reg": {
+   "Medellín": "Pierna / pernil",
+   "Bogotá": "Pernil",
+   "Cali / Eje Cafetero": "Pernil",
+   "Costa Caribe": "Pernil"
+  },
+  "desc": "Carne baja en contenido graso. Su cobertura de grasa aporta sabor y jugosidad. Corte de exquisito sabor, ideal para preparaciones en parrilla acompañadas de salsa barbecue. Se presenta en filetes.",
+  "peso": 7,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "asar",
+   "parrillar",
+   "hornear",
+   "freir"
+  ],
+  "fmt": [
+   "filetes",
+   "entero"
+  ],
+  "sus": [
+   "Lomito de cerdo",
+   "Cañón de cerdo"
+  ],
+  "nut": {
+   "p": 18.5,
+   "g": 11.9,
+   "fe": 2,
+   "pho": 220,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Filetes o entero (brazo/pierna) · 0,6–1,2 kg",
+   "bandeja": "7-1 blanca",
+   "env": "Pieza entera empacada al vacío; filetes en bandeja con vitafil",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Para pierna entera use horno a 180 °C (o 120 °C tapada con aluminio). Temperatura interna final: 65–70 °C.",
+  "rec": {
+   "titulo": "Ensalada de pierna de cerdo",
+   "porciones": 4,
+   "tiempo": "30 min",
+   "ingr": [
+    [
+     500,
+     "g",
+     "Centro de pierna de cerdo (porciones de 1 cm)",
+     1
+    ],
+    [
+     80,
+     "g",
+     "Hojas de rúgula o lechuga"
+    ],
+    [
+     0.5,
+     "u",
+     "Cebolla roja en láminas"
+    ],
+    [
+     400,
+     "g",
+     "Papa sabanera sin pelar"
+    ],
+    [
+     100,
+     "g",
+     "Moras frescas"
+    ],
+    [
+     2,
+     "cda",
+     "Vinagre"
+    ],
+    [
+     3,
+     "cda",
+     "Aceite vegetal o de oliva"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Salpimiente las porciones de pierna y resérvelas. Cocine las papas con piel y córtelas en cascos.",
+    "Dore las porciones por un lado, voltéelas cuando salgan los primeros jugos y retírelas sin sobrecocer.",
+    "Haga la vinagreta licuando las moras con el vinagre, el aceite, sal y pimienta.",
+    "Arme la ensalada con rúgula, cebolla, papa y la pierna en tiras; sirva con la vinagreta."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/pierna-cerdo.webp"
+ },
+ {
+  "id": "brazo-cerdo",
+  "esp": "porcina",
+  "n": "Brazo de cerdo",
+  "sub": "Brazuelo · Paleta",
+  "grupo": "Corte primario · Brazo",
+  "imps": "Cód. B200",
+  "alias": [
+   "Brazuelo",
+   "Brazo pulpo",
+   "Paleta",
+   "Espaldilla de cerdo"
+  ],
+  "reg": {
+   "Medellín": "Brazo de cerdo",
+   "Bogotá": "Brazo de cerdo",
+   "Cali / Eje Cafetero": "Brazo de cerdo",
+   "Costa Caribe": "Brazo de cerdo"
+  },
+  "desc": "Pieza del cuarto delantero del cerdo, con mayor contenido de tejido conectivo y grasa intramuscular que la pierna y el lomo, lo que permite tiempos de cocción más largos y jugosos.",
+  "peso": 4,
+  "uso": "Asar, hornear, freír, estofar, cocinar",
+  "coc": [
+   "hornear",
+   "asar",
+   "freir",
+   "sudar"
+  ],
+  "fmt": [
+   "filetes",
+   "tiras",
+   "entero"
+  ],
+  "sus": [
+   "Pierna de cerdo",
+   "Cañón de cerdo"
+  ],
+  "nut": {
+   "p": 18.5,
+   "g": 11.9,
+   "fe": 2,
+   "pho": 220,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Entero o cubos · 0,6–1,2 kg",
+   "bandeja": "7-1 blanca",
+   "env": "Pieza entera empacada al vacío; cubos/filetes en bandeja con vitafil",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Admite horneado largo a baja temperatura (120 °C tapado) o guiso; en cubos, sellar antes de estofar.",
+  "rec": {
+   "titulo": "Cubos de brazuelo de cerdo con láminas de plátano",
+   "porciones": 4,
+   "tiempo": "40 min",
+   "ingr": [
+    [
+     1000,
+     "g",
+     "Brazuelo de cerdo en cubos de 2 cm",
+     1
+    ],
+    [
+     1,
+     "u",
+     "Plátano verde en láminas delgadas"
+    ],
+    [
+     1,
+     "u",
+     "Calabacín verde"
+    ],
+    [
+     1,
+     "u",
+     "Calabacín amarillo"
+    ],
+    [
+     1,
+     "u",
+     "Pimentón"
+    ],
+    [
+     3,
+     "cda",
+     "Aceite vegetal"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Salpimiente los cubos y cocínelos a fuego medio-bajo con un poco de aceite hasta que estén dorados y tiernos.",
+    "Fría las láminas de plátano verde en otro recipiente hasta que queden crujientes.",
+    "Corte los calabacines y el pimentón y saltéelos hasta que estén un poco blandos.",
+    "Sirva la carne acompañada de los vegetales salteados y los plátanos."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/brazo-cerdo.webp"
+ },
+ {
+  "id": "costilla-cerdo",
+  "esp": "porcina",
+  "n": "Costilla de cerdo",
+  "sub": "Costilla campesina · Tipo Brasil",
+  "grupo": "Corte primario · Costillar",
+  "imps": "Cód. C3031",
+  "alias": [
+   "Costilla campesina",
+   "Costilla tipo Brasil",
+   "Costillar",
+   "Costilla de pecho",
+   "Hueso de pecho",
+   "Tiras de costilla"
+  ],
+  "reg": {
+   "Medellín": "Costilla de cerdo",
+   "Bogotá": "Costilla campesina",
+   "Cali / Eje Cafetero": "Costilla campesina",
+   "Costa Caribe": "Costilla campesina"
+  },
+  "desc": "Es el costillar del cerdo cubierto con carne. La costilla separada del espinazo se parte en tiras y es ideal para casi todo tipo de usos, de gran sabor.",
+  "peso": 3,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "asar",
+   "parrillar",
+   "hornear",
+   "sudar"
+  ],
+  "fmt": [
+   "tiras"
+  ],
+  "sus": [
+   "Pezuña de cerdo",
+   "Costilla San Luis"
+  ],
+  "nut": {
+   "p": 16.5,
+   "g": 19.7,
+   "fe": 2,
+   "pho": 180,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Tiras de 2,5–3 cm de ancho · 0,5–0,7 kg",
+   "bandeja": "4-1 y 7-1 blanca",
+   "env": "Pieza entera empacada al vacío; tiras en bandeja con vitafil",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Cocción lenta y baja (120–150 °C tapada) para que ablande; glasee al final.",
+  "rec": {
+   "titulo": "Costillas de cerdo glaseadas al horno",
+   "porciones": 4,
+   "tiempo": "2 h 30 min",
+   "ingr": [
+    [
+     1200,
+     "g",
+     "Costilla de cerdo en tiras",
+     1
+    ],
+    [
+     3,
+     "cda",
+     "Miel o panela rallada"
+    ],
+    [
+     3,
+     "cda",
+     "Salsa de soya"
+    ],
+    [
+     3,
+     "dientes",
+     "Ajo picado"
+    ],
+    [
+     1,
+     "u",
+     "Limón (jugo)"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Mezcle miel, soya, ajo, limón, sal y pimienta; unte las costillas y deje marinar al menos 1 hora.",
+    "Hornee cubiertas con aluminio a 150 °C por 2 horas.",
+    "Destape, suba a 200 °C y glasee con la marinada unos 15 minutos.",
+    "Deje reposar 5 minutos y sirva."
+   ],
+   "fuente": "Sugerida"
+  },
+  "img": "img/cortes/costilla-cerdo.webp"
+ },
+ {
+  "id": "costilla-san-luis",
+  "esp": "porcina",
+  "n": "Costilla San Luis",
+  "sub": "Costilla centro St. Louis",
+  "grupo": "Corte secundario · Costillar",
+  "imps": "Cód. C304",
+  "alias": [
+   "St. Louis",
+   "Costilla centro St. Louis",
+   "Costilla BBQ",
+   "Costillas para parrilla"
+  ],
+  "reg": {
+   "Medellín": "Costilla San Luis",
+   "Bogotá": "Costilla San Luis",
+   "Cali / Eje Cafetero": "Costilla San Luis",
+   "Costa Caribe": "Costilla San Luis"
+  },
+  "desc": "Costilla rectangular y pareja obtenida del centro del costillar, sin la parte cartilaginosa. Muy usada para barbacoa. Se comercializa empacada al vacío y congelada.",
+  "peso": 1.2,
+  "uso": "Asar / BBQ",
+  "coc": [
+   "parrillar",
+   "hornear",
+   "asar"
+  ],
+  "fmt": [
+   "tiras",
+   "entero"
+  ],
+  "sus": [
+   "Costilla de cerdo",
+   "Costilla baby back"
+  ],
+  "nut": {
+   "p": 16.5,
+   "g": 19.7,
+   "fe": 2,
+   "pho": 180,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Pieza entera empacada al vacío",
+   "bandeja": "No aplica (se recibe empacada al vacío)",
+   "env": "Se recibe empacada al vacío con etiqueta adhesiva en la parte superior",
+   "exh": "Isla de congelados, en el espacio definido en la planimetría",
+   "conserv": "Congelado (isla de congelados)",
+   "vida": "Según empaque al vacío del proveedor"
+  },
+  "tip": "Descongele en nevera. Cocción lenta (120–150 °C), glasear con BBQ en los últimos minutos.",
+  "rec": {
+   "titulo": "Costilla San Luis BBQ",
+   "porciones": 4,
+   "tiempo": "2 h 30 min",
+   "ingr": [
+    [
+     1500,
+     "g",
+     "Costilla San Luis",
+     1
+    ],
+    [
+     200,
+     "ml",
+     "Salsa BBQ"
+    ],
+    [
+     3,
+     "cda",
+     "Miel de abeja"
+    ],
+    [
+     2,
+     "cdta",
+     "Pimentón ahumado"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Descongele la costilla en nevera y sazónela con sal, pimienta y pimentón.",
+    "Hornee tapada con aluminio a 140–150 °C por 2 horas.",
+    "Mezcle la salsa BBQ con la miel, pincele la costilla y hornee destapada a 200 °C unos 15 minutos.",
+    "Reposar 5 minutos y cortar entre los huesos."
+   ],
+   "fuente": "Sugerida"
+  },
+  "img": "img/cortes/costilla-san-luis.webp"
+ },
+ {
+  "id": "costilla-baby-back",
+  "esp": "porcina",
+  "n": "Costilla baby back",
+  "sub": "Baby back ribs · Costilla de lomo",
+  "grupo": "Corte secundario · Costillar",
+  "imps": "Cód. C305",
+  "alias": [
+   "Baby back",
+   "Baby back ribs",
+   "Costillas de lomo",
+   "Costillitas"
+  ],
+  "reg": {
+   "Medellín": "Costilla baby back",
+   "Bogotá": "Costilla baby back ribs",
+   "Cali / Eje Cafetero": "Costilla baby back ribs",
+   "Costa Caribe": "Costilla baby back"
+  },
+  "desc": "Costillas curvas, tiernas y magras, que se obtienen junto al lomo. Más pequeñas y delicadas que las San Luis, muy apreciadas en parrilla y horno.",
+  "peso": 0.9,
+  "uso": "Asar / Parrilla",
+  "coc": [
+   "parrillar",
+   "hornear",
+   "asar"
+  ],
+  "fmt": [
+   "tiras",
+   "entero"
+  ],
+  "sus": [
+   "Costilla San Luis",
+   "Costilla de cerdo"
+  ],
+  "nut": {
+   "p": 16.5,
+   "g": 19.7,
+   "fe": 2,
+   "pho": 180,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Tiras o pieza entera",
+   "bandeja": "Bandeja Gourmet Carnes (si se vende aliñada)",
+   "env": "Pieza entera empacada al vacío; aliñada en bandeja sellada con vinipel",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Retire la membrana del reverso para que ablande; cocción lenta tapada y terminar a la parrilla.",
+  "rec": {
+   "titulo": "Baby back con miel y mostaza",
+   "porciones": 4,
+   "tiempo": "2 h",
+   "ingr": [
+    [
+     1200,
+     "g",
+     "Costilla baby back",
+     1
+    ],
+    [
+     3,
+     "cda",
+     "Mostaza"
+    ],
+    [
+     3,
+     "cda",
+     "Miel de abeja"
+    ],
+    [
+     2,
+     "cdta",
+     "Ajo en polvo"
+    ],
+    [
+     2,
+     "cda",
+     "Jugo de limón"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Retire la membrana del reverso de las costillas y sazónelas con sal, pimienta y ajo en polvo.",
+    "Unte con la mezcla de mostaza, miel y limón.",
+    "Hornee cubiertas con aluminio a 150 °C por 1 h 30 min.",
+    "Destape y dore 10 minutos a 200 °C o en la parrilla."
+   ],
+   "fuente": "Sugerida"
+  },
+  "img": "img/cortes/costilla-baby-back.webp"
+ },
+ {
+  "id": "tocino-carnudo",
+  "esp": "porcina",
+  "n": "Tocino carnudo",
+  "sub": "Tocineta · Panceta carnuda",
+  "grupo": "Corte secundario · Barriga",
+  "imps": "Cód. C301",
+  "alias": [
+   "Tocineta",
+   "Tocineta carnuda",
+   "Tocino cerdo familiar",
+   "Panceta",
+   "Barriguera",
+   "Tocino barriguera"
+  ],
+  "reg": {
+   "Medellín": "Tocino carnudo",
+   "Bogotá": "Tocino carnudo",
+   "Santander": "Tocino cerdo familiar",
+   "Cali / Eje Cafetero": "Tocineta carnuda",
+   "Costa Caribe": "Tocino carnudo"
+  },
+  "desc": "Corte del cerdo compuesto por carne, grasa y piel. Su clasificación depende del contenido de carne, siendo el carnudo el de mayor porcentaje. Especial para freír.",
+  "peso": 1.6,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "freir",
+   "asar",
+   "parrillar"
+  ],
+  "fmt": [
+   "tiras"
+  ],
+  "sus": [
+   "No tiene (sin sustituto directo)"
+  ],
+  "nut": {
+   "p": 12.6,
+   "g": 39.1,
+   "fe": 1.4,
+   "pho": 150,
+   "src": "e"
+  },
+  "emp": {
+   "pres": "Tiras · porción familiar 1,5–1,7 kg",
+   "bandeja": "25-1 blanca",
+   "env": "Pieza entera empacada al vacío; tiras en bandeja con vitafil",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Para un chicharrón crocante: cubra con agua, hierva hasta evaporar y fría en su propia grasa.",
+  "rec": {
+   "titulo": "Tocino carnudo frito crocante",
+   "porciones": 4,
+   "tiempo": "45 min",
+   "ingr": [
+    [
+     600,
+     "g",
+     "Tocino carnudo en tiras",
+     1
+    ],
+    [
+     120,
+     "ml",
+     "Agua"
+    ],
+    [
+     1,
+     "cdta",
+     "Sal"
+    ],
+    [
+     2,
+     "u",
+     "Limones (para servir)"
+    ]
+   ],
+   "pasos": [
+    "Corte el tocino en tiras de 2 cm y póngalo en un sartén ancho con el agua y la sal.",
+    "Cocine a fuego medio hasta que el agua se evapore y el tocino suelte su grasa.",
+    "Baje el fuego y fría en su propia grasa, volteando, hasta que esté dorado y crocante.",
+    "Escurra sobre papel absorbente y sirva con limón."
+   ],
+   "fuente": "Sugerida"
+  },
+  "img": "img/cortes/tocino-carnudo.webp"
+ },
+ {
+  "id": "tocino-papada",
+  "esp": "porcina",
+  "n": "Tocino papada",
+  "sub": "Papada de cerdo",
+  "grupo": "Porcionado · Cabeza/cuello",
+  "imps": "Cód. B2002",
+  "alias": [
+   "Papada",
+   "Tocino de papada"
+  ],
+  "reg": {
+   "Medellín": "Tocino papada",
+   "Bogotá": "Tocino papada",
+   "Cali / Eje Cafetero": "Tocino papada",
+   "Costa Caribe": "Tocino papada"
+  },
+  "desc": "Corte que se realiza desde la base de una oreja, en forma circular, hasta la base de la otra. Limita en su parte craneal con la cabeza y en la caudal con la nuca. Aporta sabor a guisos y sopas.",
+  "peso": 3,
+  "uso": "Asar-Sofreír",
+  "coc": [
+   "freir",
+   "asar",
+   "sudar"
+  ],
+  "fmt": [
+   "tiras"
+  ],
+  "sus": [
+   "Tocino carnudo"
+  ],
+  "nut": {
+   "p": 12.6,
+   "g": 39.1,
+   "fe": 1.4,
+   "pho": 150,
+   "src": "e"
+  },
+  "emp": {
+   "pres": "Tiras",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; tiras en bandeja con vinipel",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Blanquear unos minutos antes de dorar reduce la grasa y mejora la textura.",
+  "rec": {
+   "titulo": "Tocino con col",
+   "porciones": 4,
+   "tiempo": "45 min",
+   "ingr": [
+    [
+     300,
+     "g",
+     "Tocino papada",
+     1
+    ],
+    [
+     800,
+     "g",
+     "Col"
+    ],
+    [
+     2,
+     "u",
+     "Cebollas medianas"
+    ],
+    [
+     250,
+     "ml",
+     "Caldo de carne"
+    ],
+    [
+     null,
+     "",
+     "Sal al gusto"
+    ]
+   ],
+   "pasos": [
+    "Hierva la col con un poco de sal hasta que esté lista y córtela en trozos.",
+    "Dore el tocino cortado en pequeños pedacitos en una cazuela; agregue la cebolla picada y sofría.",
+    "Incorpore la col y el caldo de carne.",
+    "Cocine hasta que el caldo se evapore y sirva."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/tocino-papada.webp"
+ },
+ {
+  "id": "tocino-graso",
+  "esp": "porcina",
+  "n": "Tocino graso",
+  "sub": "Grasa de cerdo en lámina",
+  "grupo": "Subproducto comestible · Grasa",
+  "imps": "Cód. 0508 (grasa)",
+  "alias": [
+   "Grasa de cerdo",
+   "Manteca",
+   "Tocino de grasa",
+   "Tocino grasa"
+  ],
+  "reg": {
+   "Medellín": "Tocino graso",
+   "Bogotá": "Tocino graso",
+   "Cali / Eje Cafetero": "Tocino graso",
+   "Costa Caribe": "Tocino graso"
+  },
+  "desc": "Tocino casi exclusivamente graso, usado para freír, aportar jugosidad en embutidos y como base de preparaciones tradicionales.",
+  "peso": 2,
+  "uso": "Freír",
+  "coc": [
+   "freir"
+  ],
+  "fmt": [
+   "tiras"
+  ],
+  "sus": [
+   "Tocino carnudo"
+  ],
+  "nut": {
+   "p": 0,
+   "g": 100,
+   "fe": 0,
+   "src": "e"
+  },
+  "emp": {
+   "pres": "Tiras",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; tiras en bandeja con vinipel",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Muy calórico: úselo en pequeñas cantidades para dar sabor.",
+  "rec": {
+   "titulo": "Paté rústico de cerdo",
+   "porciones": 5,
+   "tiempo": "1 h + 24 h de maceración + 24 h de reposo",
+   "ingr": [
+    [
+     250,
+     "g",
+     "Pierna de cerdo",
+     1
+    ],
+    [
+     150,
+     "g",
+     "Papada de cerdo"
+    ],
+    [
+     3,
+     "u",
+     "Higaditos de pollo"
+    ],
+    [
+     50,
+     "g",
+     "Tocino graso fresco"
+    ],
+    [
+     0.5,
+     "u",
+     "Cebolla"
+    ],
+    [
+     1,
+     "diente",
+     "Ajo"
+    ],
+    [
+     1,
+     "u",
+     "Huevo"
+    ],
+    [
+     60,
+     "ml",
+     "Jerez"
+    ],
+    [
+     1,
+     "cda",
+     "Brandy"
+    ],
+    [
+     50,
+     "g",
+     "Nata líquida"
+    ],
+    [
+     1,
+     "cda",
+     "Mantequilla"
+    ],
+    [
+     1,
+     "cda",
+     "Maizena"
+    ],
+    [
+     50,
+     "g",
+     "Pistachos crudos"
+    ],
+    [
+     null,
+     "",
+     "Sal, pimienta, nuez moscada, laurel, tomillo y orégano"
+    ]
+   ],
+   "pasos": [
+    "Corte el tocino en daditos y blanquéelo 2 minutos en agua hirviendo.",
+    "Licúe la cebolla, la mantequilla y el ajo 3 minutos en velocidad alta.",
+    "Pique la carne, la papada y los higaditos juntos, mézclelos con el resto de ingredientes en un bol y deje macerar 24 horas en la nevera, bien tapado, removiendo de vez en cuando.",
+    "Pase a un molde de medio kilo y cueza en horno por 45 minutos. Deje reposar 24 horas en la nevera antes de servir."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/tocino-graso.webp"
+ },
+ {
+  "id": "espinazo",
+  "esp": "porcina",
+  "n": "Espinazo de cerdo",
+  "sub": "Hueso del espinazo carnudo",
+  "grupo": "Subproducto comestible",
+  "imps": "Cód. 0501",
+  "alias": [
+   "Espinazo",
+   "Espinazo carnudo",
+   "Hueso del espinazo",
+   "Hueso carnudo"
+  ],
+  "reg": {
+   "Medellín": "Espinazo",
+   "Bogotá": "Espinazo",
+   "Cali / Eje Cafetero": "Espinazo",
+   "Costa Caribe": "Espinazo"
+  },
+  "desc": "Es la columna vertebral del cerdo, que se presenta en cortes transversales (medallones). Especial para aportar un sabor exquisito a sopas y caldos.",
+  "peso": 3,
+  "uso": "Cocinar",
+  "coc": [
+   "sudar"
+  ],
+  "fmt": [
+   "medallones"
+  ],
+  "sus": [
+   "Pezuña de cerdo"
+  ],
+  "nut": {
+   "p": 16.5,
+   "g": 19.7,
+   "fe": 2,
+   "pho": 180,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Medallones (cortes transversales)",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; medallones en bandeja con vinipel",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Cocción húmeda y lenta (olla a presión o fuego bajo) hasta que la carne se desprenda del hueso.",
+  "rec": {
+   "titulo": "Espinazo con lentejas",
+   "porciones": 4,
+   "tiempo": "1 h 30 min",
+   "ingr": [
+    [
+     800,
+     "g",
+     "Espinazo (carnudo o especial)",
+     1
+    ],
+    [
+     250,
+     "g",
+     "Lentejas"
+    ],
+    [
+     3,
+     "u",
+     "Tomates maduros"
+    ],
+    [
+     2,
+     "u",
+     "Cebollas cabezonas"
+    ],
+    [
+     1,
+     "u",
+     "Pimentón rojo"
+    ],
+    [
+     2,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     2,
+     "cda",
+     "Aceite vegetal"
+    ],
+    [
+     2000,
+     "ml",
+     "Agua fría"
+    ],
+    [
+     null,
+     "",
+     "Laurel, tomillo, sal y pimienta; arroz blanco para acompañar"
+    ]
+   ],
+   "pasos": [
+    "Deje las lentejas en remojo para que se hidraten.",
+    "Salpimiente el espinazo y llévelo a una olla con el agua fría para empezar a cocinar; incorpore laurel y tomillo.",
+    "Haga un hogao con cebolla, tomate, pimentón y ajo en el aceite.",
+    "Añada las lentejas y el hogao a la olla y cocine hasta que el espinazo y las lentejas estén tiernos. Sirva con arroz blanco."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/espinazo.webp"
+ },
+ {
+  "id": "pezuna",
+  "esp": "porcina",
+  "n": "Pezuña de cerdo",
+  "sub": "Manitas · Paticas",
+  "grupo": "Subproducto comestible",
+  "imps": "Cód. 0500",
+  "alias": [
+   "Pezuña",
+   "Pezuñas",
+   "Manitas",
+   "Paticas",
+   "Patas de cerdo"
+  ],
+  "reg": {
+   "Medellín": "Manitas / paticas",
+   "Bogotá": "Pezuña de cerdo",
+   "Cali / Eje Cafetero": "Pezuña de cerdo",
+   "Costa Caribe": "Pezuña de cerdo"
+  },
+  "desc": "Extremidades del cerdo (anteriores o posteriores), ricas en colágeno. Ideales para guisos tradicionales como frijoles, lentejas y sopas.",
+  "peso": 2.5,
+  "uso": "Cocinar",
+  "coc": [
+   "sudar"
+  ],
+  "fmt": [
+   "filetes"
+  ],
+  "sus": [
+   "Espinazo"
+  ],
+  "nut": {
+   "p": 18.5,
+   "g": 11.9,
+   "fe": 2,
+   "pho": 220,
+   "src": "r"
+  },
+  "emp": {
+   "pres": "Partidas o en trozos",
+   "bandeja": "Según tamaño de la porción",
+   "env": "Pieza entera empacada al vacío; trozos en bandeja con vinipel",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Cocción larga (1,5–2 h): el colágeno da cuerpo a las salsas.",
+  "rec": {
+   "titulo": "Pezuña de cerdo con frijoles rojos",
+   "porciones": 4,
+   "tiempo": "2 h",
+   "ingr": [
+    [
+     1000,
+     "g",
+     "Pezuñas de cerdo partidas",
+     1
+    ],
+    [
+     450,
+     "g",
+     "Frijoles rojos"
+    ],
+    [
+     1,
+     "u",
+     "Cebolla cabezona"
+    ],
+    [
+     2,
+     "u",
+     "Tomates maduros"
+    ],
+    [
+     2,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     null,
+     "",
+     "Sal y arroz blanco para acompañar"
+    ]
+   ],
+   "pasos": [
+    "Deje los frijoles en remojo durante la noche y cocínelos en agua suficiente hasta obtener textura media.",
+    "Incorpore las pezuñas, la cebolla, el tomate y el ajo.",
+    "Cocine hasta que los frijoles y la pezuña se ablanden, rectifique la sal y sirva con arroz blanco."
+   ],
+   "fuente": "Éxito"
+  },
+  "img": "img/cortes/pezuna.webp"
+ },
+ {
+  "id": "codito",
+  "esp": "porcina",
+  "n": "Codito de cerdo",
+  "sub": "Coditos con hueso",
+  "grupo": "Corte secundario · Brazo",
+  "imps": "Cód. B204",
+  "alias": [
+   "Coditos",
+   "Coditos de cerdo",
+   "Codillo",
+   "Jarrete de cerdo"
+  ],
+  "reg": {
+   "Medellín": "Codito",
+   "Bogotá": "Codito",
+   "Cali / Eje Cafetero": "Codito",
+   "Costa Caribe": "Codito"
+  },
+  "desc": "Corte de cerdo con hueso proveniente de la zona del codo. Aporta sabor y gelatina a guisos y sopas; se vende en medallones o entero.",
+  "peso": 0.85,
+  "uso": "Cocinar",
+  "coc": [
+   "sudar",
+   "hornear"
+  ],
+  "fmt": [
+   "medallones",
+   "entero"
+  ],
+  "sus": [
+   "Espinazo",
+   "Pezuña de cerdo"
+  ],
+  "nut": {
+   "p": 17,
+   "g": 14,
+   "fe": 1.6,
+   "src": "x"
+  },
+  "emp": {
+   "pres": "Entero o medallones · 0,7–1 kg",
+   "bandeja": "Entero: 7-1 · medallones: 4-1",
+   "env": "Pieza entera empacada al vacío; medallones en bandeja con vitafil",
+   "exh": "Categoría Cerdo, según planograma. Precio en la esquina superior derecha de la bandeja"
+  },
+  "tip": "Cocción lenta con líquido para que la carne se deshaga del hueso.",
+  "rec": {
+   "titulo": "Coditos de cerdo guisados",
+   "porciones": 4,
+   "tiempo": "1 h 45 min",
+   "ingr": [
+    [
+     1000,
+     "g",
+     "Coditos de cerdo",
+     1
+    ],
+    [
+     1,
+     "u",
+     "Cebolla"
+    ],
+    [
+     2,
+     "u",
+     "Tomates"
+    ],
+    [
+     2,
+     "dientes",
+     "Ajo"
+    ],
+    [
+     1,
+     "cdta",
+     "Comino"
+    ],
+    [
+     250,
+     "ml",
+     "Cerveza"
+    ],
+    [
+     500,
+     "g",
+     "Papa criolla"
+    ],
+    [
+     null,
+     "",
+     "Sal y pimienta"
+    ]
+   ],
+   "pasos": [
+    "Sazone los coditos con ajo, comino, sal y pimienta y dórelos en una olla.",
+    "Agregue cebolla y tomate picados y sofría.",
+    "Añada la cerveza y agua para cubrir, tape y cocine a fuego bajo 1 hora y 15 minutos.",
+    "Incorpore las papas los últimos 25 minutos y sirva."
+   ],
+   "fuente": "Sugerida"
+  },
+  "img": "img/cortes/codito.webp"
+ }
+];
